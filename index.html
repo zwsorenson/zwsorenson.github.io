@@ -2,21 +2,43 @@
 layout: default
 ---
 
-
-<h1>Hello, world!</h1>
-
-<h2>Posts</h2>
-
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-    </li>
-    {% endfor %}
-</ul>
-
-<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="row">
+    <div class="col-sm-6">
+        <h3>Writing</h3>
+        {% for post in site.posts %}{% if post.categories contains 'writing' %}
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object" src="{{ post.thumbnail }}" alt="Logo" />
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h4>
+                    <p>
+                        <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                    </p>
+                </div>
+            </div>
+        {% endif %}{% endfor %}
+    </div>
+    <div class="col-sm-6">
+        <h3>Projects</h3>
+        {% for post in site.posts %}{% if post.categories contains 'project'%}
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object" src="{{ post.thumbnail }}" alt="Logo" />
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h4>
+                    <p>
+                        <small>{{ post.date | date: "%B %Y" }}</small>
+                        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+                    </p>
+                </div>
+            </div>
+        {% endif %}{% endfor %}
+    </div>
+</div>
