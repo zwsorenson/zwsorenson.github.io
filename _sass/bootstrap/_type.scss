@@ -78,6 +78,8 @@ p {
 small,
 .small {
   font-size: floor((100% * $font-size-small / $font-size-base));
+  font-family: $font-family-sans-serif;
+  line-height: 1;
 }
 
 mark,
@@ -261,6 +263,7 @@ blockquote {
     font-size: 80%; // back to default font-size
     line-height: $line-height-base;
     color: $blockquote-small-color;
+    font-fmaily: $font-family-sans-serif;
 
     &:before {
       content: '\2014 \00A0'; // em dash, nbsp

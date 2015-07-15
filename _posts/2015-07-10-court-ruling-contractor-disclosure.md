@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Qualtrics Vocalize
-categories: project
-thumbnail: 'http://logo.clearbit.com/qualtrics.com?size=64'
+title: Court ruling could spur action on greater disclosure of contractor contributions
+categories: writing
+source-thumb: 'http://logo.clearbit.com/sunlightfoundation.com?size=64'
+source-name: Sunlight Foundation
+source-url: 'http://sunlightfoundation.com/blog/2015/07/10/court-ruling-could-spur-action-on-greater-disclosure-of-contractor-contributions/'
+image-url: 'https://horseradish.s3.amazonaws.com/CACHE/images/photos/e5/fe/19e10a86486e/District_of_Columbia_Court_of_Appeals_Seal.svg-300.png'
 ---
 
 Last week, the Obama administration [quietly announced](http://www.rcfp.org/browse-media-law-resources/news/federal-agencies-announce-limited-trial-release-one-release-all-foia) it is trying a new policy that will increase public disclosure of government information requested under the [Freedom of Information Act](http://www.gpo.gov/fdsys/pkg/USCODE-2013-title5/html/USCODE-2013-title5-partI-chap5-subchapII-sec552.htm) (FOIA). During a six-month pilot period, seven executive departments and agencies will start publishing all responses to FOIA requests -- a promising shift from present practice.
