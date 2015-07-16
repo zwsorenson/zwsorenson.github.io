@@ -7,19 +7,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{site.baseurl}}">ZWS</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+                Z<span class="hidden-xs hidden-sm">ach </span><span class="visible-xs-inline visible-sm-inline">WS</span><span class="hidden-xs hidden-sm"> Sorenson</span>
+            </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                {% for page in site.pages %}
-                {% if page.title %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">
-                        {{ page.title }}
-                    </a>
-                </li>
-                {% endif %}
-                {% endfor %}
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/writing/">Writing</a></li>
+                <li><a href="/projects/">Projects</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

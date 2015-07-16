@@ -15,6 +15,9 @@
   border: 1px solid transparent;
 
   font-family: $font-family-sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: $font-size-small;
 
   // Prevent floats from breaking the navbar
   @include clearfix;
@@ -166,6 +169,10 @@
   float: left;
   padding: $navbar-padding-vertical $navbar-padding-horizontal;
   font-size: $font-size-large;
+  font-family: $font-family-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: none;
   line-height: $line-height-computed;
   height: $navbar-height;
 

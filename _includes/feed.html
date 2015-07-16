@@ -1,0 +1,25 @@
+<div>
+    {% for post in site.posts %}{% if post.categories contains include.category %}
+        <div class="media">
+            {% if post.source-url %}{% if post.source-thumb %}
+            <div class="media-left">
+                <a href="{{ post.source-url }}">
+                    <img class="media-object" style="max-width: 64px;" src="{{ post.source-thumb }}" alt="{{ post.source-name }}"/>
+                </a>
+            </div>
+            {% endif %}{% endif %}
+            <div class="media-body">
+                <h4 class="media-heading">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h4>
+                <p>
+                    <small class="text-uppercase">{{ post.date | date: include.date }}</small>
+                    {% if post.source-name %}
+                    <small> · <a href="{{ post.source-url }}">{{ post.source-name }}</a></small>
+                    {% endif %}
+                    <!-- {{ post.excerpt | remove: '<p>' | remove: '</p>' }} -->
+                </p>
+            </div>
+        </div>
+    {% endif %}{% endfor %}
+</div>
