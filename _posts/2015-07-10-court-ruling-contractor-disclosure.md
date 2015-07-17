@@ -2,7 +2,7 @@
 layout: post
 title: Court ruling could spur action on greater disclosure of contractor contributions
 categories: writing
-source-thumb: 'http://logo.clearbit.com/sunlightfoundation.com?size=64'
+source-thumb: '/images/logos/sunlight.png'
 source-name: The Sunlight Foundation
 source-url: 'http://sunlightfoundation.com/blog/2015/07/10/court-ruling-could-spur-action-on-greater-disclosure-of-contractor-contributions/'
 image-url: 'https://horseradish.s3.amazonaws.com/CACHE/images/photos/e5/fe/19e10a86486e/District_of_Columbia_Court_of_Appeals_Seal.svg-300.png'

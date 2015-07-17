@@ -2,7 +2,7 @@
 layout: post
 title: New Lathrop Library to host Meyer’s services
 categories: writing
-source-thumb: 'http://logo.clearbit.com/stanford.edu?size=64'
+source-thumb: '/images/logos/stanford.png'
 source-name: The Stanford Daily
 source-url: 'http://www.stanforddaily.com/2014/05/09/lathrop-library-to-replace-meyer/'
 image-url: 'http://stanforddaily.wpengine.netdna-cdn.com/wp-content/uploads/2014/05/Meyer.jpg'

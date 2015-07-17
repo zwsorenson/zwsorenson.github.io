@@ -1,12 +1,14 @@
 # Site settings
-title: Test Site
+title: ZWS
 email: me@zachsorenson.com
 description: > # this means to ignore newlines until "baseurl:"
-  Zach's personal website.
+  My name is Zach. I’m a senior at Stanford studying computer science
+  and public policy. Dutiful CS major as I am, I put together this website so friends and family — and future employers? — can see what I've been up to.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.zachsorenson.com" # the base hostname & protocol for your site
 twitter_username: zwsorenson
 github_username:  zwsorenson
-
+email_address: me@zachsorenson.com
 # Build settings
 markdown: kramdown
+highlighter: pygments
