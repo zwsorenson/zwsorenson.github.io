@@ -1,10 +1,17 @@
 <div>
     {% for post in site.categories[include.category] limit:include.limit %}
         <div class="media">
-            {% if post.source-url %}{% if post.source-thumb %}
+            {% if post.source-thumb %}
             <div class="media-left">
                 <a href="{{ post.source-url }}">
                     <img class="media-object" style="max-width: 64px;" src="{{ post.source-thumb }}" alt="{{ post.source-name }}"/>
+                </a>
+            </div>
+            {% else %}
+            {% if post.image-url %}
+            <div class="media-left">
+                <a href="{{ post.url }}">
+                    <img class="media-object img-rounded" style="max-width: 64px;" src="{{ post.image-url }}" alt="{{ post.image-caption }}"/>
                 </a>
             </div>
             {% endif %}{% endif %}
@@ -17,7 +24,6 @@
                     {% if post.source-name %}
                     <small> · <a href="{{ post.source-url }}">{{ post.source-name }}</a></small>
                     {% endif %}
-                    <!-- {{ post.excerpt | remove: '<p>' | remove: '</p>' }} -->
                 </p>
             </div>
         </div>
