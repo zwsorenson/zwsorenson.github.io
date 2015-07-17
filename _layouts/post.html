@@ -2,13 +2,13 @@
 layout: default
 ---
 <div class="page-header">
-    {% if page.source-url %}{% if page.source-thumb %}
+    {% if page.source-thumb %}
     <div class="pull-right">
         <a href="{{ page.source-url }}">
             <img class="media-object" src="{{ page.source-thumb }}" alt="{{ page.source-name }}" style="max-width: 64px;"/>
         </a>
     </div>
-    {% endif %}{% endif %}
+    {% endif %}
     <div>
         <h1>{{ page.title }}</h1>
         <h4>
