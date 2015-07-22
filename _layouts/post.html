@@ -37,3 +37,9 @@ layout: default
 <article>
     {{ content }}
 </article>
+
+{% if page.source-url %}{% if page.categories contains "projects" %}
+<div class="text-center">
+    <a href="{{ page.source-url }}" class="btn btn-primary">View Project{% if page.source-name %} at {{ page.source-name }}{% endif %}<span class="glyphicon glyphicon glyphicon-new-window"></span></a>
+</div>
+{% endif %}{% endif %}
