@@ -8,18 +8,48 @@ source-url: 'http://sunlightfoundation.com/blog/2015/07/10/court-ruling-could-sp
 image-url: 'https://horseradish.s3.amazonaws.com/CACHE/images/photos/e5/fe/19e10a86486e/District_of_Columbia_Court_of_Appeals_Seal.svg-300.png'
 ---
 
-Last week, the Obama administration [quietly announced](http://www.rcfp.org/browse-media-law-resources/news/federal-agencies-announce-limited-trial-release-one-release-all-foia) it is trying a new policy that will increase public disclosure of government information requested under the [Freedom of Information Act](http://www.gpo.gov/fdsys/pkg/USCODE-2013-title5/html/USCODE-2013-title5-partI-chap5-subchapII-sec552.htm) (FOIA). During a six-month pilot period, seven executive departments and agencies will start publishing all responses to FOIA requests -- a promising shift from present practice.
+On Monday, the U.S. Court of Appeals for the D.C. Circuit unanimously
+ruled in [Wagner v.
+FEC](http://www.cadc.uscourts.gov/internet/opinions.nsf/75398759A3FE855D85257E7B00527FA0/$file/13-5162-1561227.pdf)
+that a 75-year-old ban on political contributions by federal contractors
+is constitutional. The decision comes at a time of renewed interest in
+executive action to require that government contractors disclose their
+political activity.
 
-Currently, federal agencies are only [required](http://www.justice.gov/oip/blog/foia-post-2003-foia-counselor-qa-frequently-requested-records) to publicly share released records that are requested three or more times. The new policy, known as "release to one, release to all," removes this threshold for some agencies and instead requires that any records released to even one requester also be posted publicly online. If successful, the pilot could be implemented more broadly across the executive branch and increase public access to important information about government activity.
+The [statute](https://www.law.cornell.edu/uscode/text/52/30119) upheld
+by the court prohibits government contractors from directly or
+indirectly contributing to any federal political candidate, committee or
+party (though, they are still allowed to make independent political
+expenditures or contribute to a PAC). The court found two compelling
+justifications for barring such contributions: preventing *quid pro quo*
+corruption or its appearance, and ensuring that contracting decisions
+are made based on merit and not political allegiance.
 
-"We think [the pilot] has tremendous potential to increase transparency and give the public information," said Melanie Pustay, director of the [Justice Department office](http://www.justice.gov/opa/blog/proactive-disclosure-pilot-launches) that issues FOIA guidance and is leading the pilot, in an [interview with The Huffington Post](http://www.huffingtonpost.com/entry/with-release-to-one-release-to-all-us-pilots-new-freedom-of-information-policy_559f1661e4b05b1d0290135b).
+Although federal law currently prevents contractors from making
+political contributions during the negotiation or execution of a
+contract, it leaves open an important loophole by not addressing
+political activity before negotiations start. A [draft executive
+order](http://www.scribd.com/doc/53440033/Executive-Order-Disclosure-of-Political-Spending-by-Government-Contractors)
+first circulated four years ago sought to rectify this gap — it would
+have required any individual or corporation submitting a bid for a
+federal contract to disclose all political contributions made in the
+preceding two years — but it was abandoned before the 2012 election
+cycle.
 
-The primary goal of the pilot period is to determine whether requiring disclosure of all FOIA responses substantially increases the cost or amount of staff time required to respond to requests for information, according to the administration's [announcement](http://open.defense.gov/Portals/23/Documents/FOIA%20policy%20pilots.pdf). Additionally, the administration says it will consider potential privacy concerns -- participating agencies will not publish responses to individuals only requesting information about themselves, for example.
+Last week, lawmakers in the House and Senate separately sent [two
+letters](http://eshoo.house.gov/issues/justice/bicameral-call-for-greater-transparency-in-political-spending/)
+calling on the president to revive this abandoned draft and once again
+move to require full disclosure of all political activity by
+contractors. According to the House lawmakers: “With public funds come
+public responsibilities, and any company receiving federal tax dollars
+should be required by executive order to fully disclose their political
+spending.”
 
-The results of the pilot will be made public and participating agencies plan to be transparent throughout their implementation of the program. Members of the public are also invited to [submit feedback, ideas, comments or suggestions](mailto:releasetoall@usdoj.gov) to the Justice Department's Office of Information Policy.
-
-The pilot will be conducted at the Environmental Protection Agency, the Office of the Director of National Intelligence and the Millennium Challenge Corporation. Selected components of the Department of Defense, Department of Homeland Security, Department of Justice, and National Archives and Records Administration will also participate. The group of agencies participating in the pilot may seem disjointed, but according to Pustay, this will allow agencies to test the new policy with a wide variety of record types and information requests.
-
-The Sunlight Foundation has [supported](http://sunlightfoundation.com/blog/2015/02/05/47-groups-rally-around-foia-reform-as-bill-moves-to-senate-floor/) legislation currently being considered in both the [House](https://www.congress.gov/bill/114th-congress/house-bill/653/all-actions) and the [Senate](https://www.congress.gov/bill/114th-congress/senate-bill/337/all-actions) that would modernize and improve the FOIA in other important ways, but neither proposal would require public disclosure of responses after just one request instead of three. Accordingly, this new policy could actually improve FOIA practices beyond what is currently being considered by Congress, if the pilot is successful.
-
-On his first day in office, President Obama sent a [memo](https://www.whitehouse.gov/the_press_office/FreedomofInformationAct) to the heads of executive departments and agencies instructing that "all agencies should adopt a presumption in favor of disclosure ... applied to all decisions involving FOIA." The "release to one, release to all" pilot program shows that the administration is still serious about improving public access to government information by ensuring that federal agencies are always biased towards disclosure and openness as they respond to FOIA requests.
+While it is still possible that the Supreme Court could decide to hear
+*Wagner v. FEC* and potentially reverse Monday’s ruling, the fact that
+the appeals court issued its decision unanimously and *en banc* —
+meaning it came from all of the court’s judges, not just a panel — makes
+further appeal unlikely and means that the constitutional case for
+limiting the political activity of government contractors is strong.
+Hopefully, this strengthened legal foundation will bolster renewed
+efforts to require contractor disclosure through executive action.

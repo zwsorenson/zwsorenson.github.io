@@ -15,13 +15,13 @@ layout: default
         </p>
     </div>
     <div class="col-md-7">
-        <h2><a href="/blog/">Blog</a></h2>
-        {% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
-
         <h2><a href="/writing/">Writing</a></h2>
         {% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
 
         <h2><a href="/projects/">Projects</a></h2>
         {% include feed.html category="projects" date="%B %Y" limit=2 %}
+
+        <h2><a href="/blog/">Blog</a></h2>
+        {% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
     </div>
 </div>
