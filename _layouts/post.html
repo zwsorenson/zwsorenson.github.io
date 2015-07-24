@@ -35,6 +35,11 @@ layout: default
 {% endif %}
 
 <article>
+    {% if page.intro %}
+        <div class="well">
+            <small>{{ page.intro}}</small>
+        </div>
+    {% endif %}
     {{ content }}
 </article>
 
