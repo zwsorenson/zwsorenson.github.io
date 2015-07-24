@@ -79,6 +79,19 @@ th {
     }
   }
 }
+.table-no-border {
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        border: none;
+      }
+    }
+  }
+}
+
 
 
 // Bordered version
