@@ -1,6 +1,45 @@
 ---
-layout: page
+layout: post
 title: Blog
 ---
+{% for post in site.categories["blog""] %}
 
-{% include feed.html category="blog" date="%b %-d, %Y" %}
+<div style="margin-bottom: 64px;">
+    <div class="post-header">
+        {% if page.source-thumb %}
+            <div class="pull-right">
+                <a href="{{ post.source-url }}">
+                    <img class="media-object" src="{{ post.source-thumb }}" alt="{{ post.source-name }}" style="max-width: 64px;"/>
+                </a>
+            </div>
+        {% endif %}
+        <div>
+            <h1><a href="{{ post.url}}">{{ post.title }}</a></h1>
+            <h4>
+                <small>
+                    {{ post.date | date: "%b %-d, %Y" }}
+                    {% if post.source-name %} ·
+                        {% if post.source-url %}<a href="{{ post.source-url }}">{% endif %}
+                        {{ post.source-name }}
+                        {% if post.source-url %}</a>{% endif %}
+
+                    {% endif %}
+                </small>
+            </h4>
+        </div>
+    </div>
+
+    {% if post.image-url %}
+        <div class="pull-right col-sm-6 post-caption">
+            <img src="{{ post.image-url }}" class="img-responsive" />
+            {% if post.image-caption %}
+                <small>{{ post.image-caption }}</small>
+            {% endif %}
+        </div>
+    {% endif %}
+
+    <article>
+        {{ post.content }}
+    </article>
+</div>
+{% endfor %}

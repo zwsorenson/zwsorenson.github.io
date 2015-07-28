@@ -35,18 +35,36 @@ layout: default
 {% endif %}
 
 <article>
+    {% if page.intro %}
+        <div class="well">
+            <small>{{ page.intro}}</small>
+        </div>
+    {% endif %}
     {{ content }}
 </article>
 
-{% if page.source-url %}{% if page.categories contains "projects" %}
-<div class="text-center">
-    <a href="{{ page.source-url }}" class="btn btn-primary btn-sm">
-        View Project
-        {% if page.source-name %}
-            <br> <small>{{ page.source-name }}  <span class="glyphicon glyphicon glyphicon-new-window"></span></small>
-        {% else %}
-            <span class="glyphicon glyphicon glyphicon-new-window"></span>
-        {% endif %}
-    </a>
-</div>
-{% endif %}{% endif %}
+{% if page.categories contains "projects" %}
+    {% if page.download-url %}
+    <div class="text-center">
+        <a href="{{ page.download-url }}" class="btn btn-primary btn-sm">
+            Download Project
+            {% if page.source-name %}
+                <br> <small>{{ page.source-name }}  <span class="glyphicon glyphicon-download-alt"></span></small>
+            {% else %}
+                <span class="glyphicon glyphicon-download-alt"></span>
+            {% endif %}
+        </a>
+    </div>
+    {% elsif page.source-url %}
+    <div class="text-center">
+        <a href="{{ page.source-url }}" class="btn btn-primary btn-sm">
+            View Project
+            {% if page.source-name %}
+                <br> <small>{{ page.source-name }}  <span class="glyphicon glyphicon glyphicon-new-window"></span></small>
+            {% else %}
+                <span class="glyphicon glyphicon-new-window"></span>
+            {% endif %}
+        </a>
+    </div>
+    {% endif %}
+{% endif %}
