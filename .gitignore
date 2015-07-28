@@ -2,3 +2,7 @@ _site
 .DS_Store
 .gitignore
 .sass-cache
+
+copy.html
+
+copy.md

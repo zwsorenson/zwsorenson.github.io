@@ -3,25 +3,19 @@ layout: default
 ---
 
 
-<div class="row">
-    <div class="col-md-5">
-        <h2>Hello</h2>
-        <p>
-            <img src="/images/zws.jpg" class="img-circle pull-right post-caption" style="max-width: 144px"/>
-            {{ site.description }}
-        </p>
-        <p>
-            You can <a href="{{ site.email_address }}">email me</a> if you want.
-        </p>
-    </div>
-    <div class="col-md-7">
-        <h2><a href="/writing/">Writing</a></h2>
-        {% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
 
-        <h2><a href="/projects/">Projects</a></h2>
-        {% include feed.html category="projects" date="%B %Y" limit=2 %}
+<h2>Hello</h2>
+<p>
+    <img src="/images/zws.jpg" class="img-circle pull-right post-caption" style="max-width: 144px"/>
+    {{ site.description }}
+</p>
+<p>You can <a href="{{ site.email_address }}">email me</a> if you want.</p>
 
-        <h2><a href="/blog/">Blog</a></h2>
-        {% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
-    </div>
-</div>
+<h2><a href="/writing/">Writing</a></h2>
+{% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
+
+<h2><a href="/projects/">Projects</a></h2>
+{% include feed.html category="projects" date="%B %Y" limit=2 %}
+
+<h2><a href="/blog/">Blog</a></h2>
+{% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
