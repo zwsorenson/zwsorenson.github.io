@@ -1,17 +1,21 @@
 ---
 layout: default
 ---
-<div class="card">
-  <table>
-    <tr>
-      <!--<td>
-          <div class="headshot" style="background-image: url({{ 'headshot.jpg' | prepend: site.baseurl }})"></div>
-      </td>-->
-      <td>
-          <h1>Zach Sorenson</h1>
-          <!--<a href="https://www.sharelatex.com/project/54c6b0cf0231378d4def344d/output/output.pdf" class="btn">Resume</a>-->
-          <a href="mailto:me@zachsorenson.com" class="btn">Contact</a>
-       </td>
-    </tr>
-  </table>
-</div>
+
+
+
+<h2>Hello</h2>
+<p>
+    <img src="/images/zws.jpg" class="img-circle pull-right post-caption" style="max-width: 144px"/>
+    {{ site.description }}
+</p>
+<p>You can <a href="mailto:{{ site.email_address }}">email me</a> if you want.</p>
+
+<h2><a href="/writing/">Writing</a></h2>
+{% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
+
+<h2><a href="/projects/">Projects</a></h2>
+{% include feed.html category="projects" date="%B %Y" limit=2 %}
+
+<h2><a href="/blog/">Blog</a></h2>
+{% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}

@@ -1,0 +1,9 @@
+<figure class="post-caption">
+    <img class="img-responsive" src="{{include.url}}" alt="New &quot;Blue Marble,&quot; captured by NASA in 2015">
+    <small>
+        {{include.caption}}
+        {% if include.source-name %}
+        (Photo credit: <a href="{{include.source-url}}">{{include.source-name}}</a>)
+        {% endif %}
+    </small>
+</figure>

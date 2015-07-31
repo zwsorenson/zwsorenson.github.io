@@ -1,14 +1,14 @@
 # Site settings
-title: Zach Sorenson
+title: ZWS
 email: me@zachsorenson.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I’m a senior at Stanford studying computer science
+  and public policy. Dutiful CS major that I am, I put together this website so friends and family — and future employers? — can see what I’ve been up to.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.zachsorenson.com" # the base hostname & protocol for your site
 twitter_username: zwsorenson
 github_username:  zwsorenson
-
+email_address: me@zachsorenson.com
 # Build settings
 markdown: kramdown
+highlighter: pygments
