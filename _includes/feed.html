@@ -1,0 +1,31 @@
+<div>
+    {% for post in site.categories[include.category] limit:include.limit %}
+        <div class="media">
+            {% if post.source-thumb %}
+            <div class="media-left">
+                <a href="{{ post.source-url }}">
+                    <img class="media-object" style="max-width: 64px;" src="{{ post.source-thumb }}" alt="{{ post.source-name }}"/>
+                </a>
+            </div>
+            {% else %}
+            {% if post.image-url %}
+            <div class="media-left">
+                <a href="{{ post.url }}">
+                    <img class="media-object img-rounded" style="max-width: 64px;" src="{{ post.image-url }}" alt="{{ post.image-caption }}"/>
+                </a>
+            </div>
+            {% endif %}{% endif %}
+            <div class="media-body">
+                <h4 class="media-heading">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h4>
+                <p>
+                    <small class="text-uppercase">{{ post.date | date: include.date }}</small>
+                    {% if post.source-name %}
+                    <small> · <a href="{{ post.source-url }}">{{ post.source-name }}</a></small>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
