@@ -9,14 +9,8 @@ source-url: 'https://www.whitehouse.gov/2014-taxreceipt'
 
 The Federal Taxpayer Receipt is simple, responsive [AngularJS](https://angularjs.org/) application displaying a customizable receipt to taxpayers, which I built from scratch while I was a White House Intern.
 
-## Use
-1. To run the site on your machine, open Terminal and navigate into the tax_receipt diretory (e.g. `cd Documents/<path>/<to>/tax_receipt`)
-2. Enter the command `python -m SimpleHTTPServer`
-3. You should get the response `Serving HTTP on 0.0.0.0 port 8000 ...`
-4. Open a web browser and navigate to [http://localhost:8000/](http://localhost:8000/) to open the site.
-
 ## Structure
-All data for the receipt is kept in the `data/budget.json` file. The application automatically generates the receipt from this data. Below is an abbreviated example of the JSON structure.
+All data for the receipt is kept in a `budget.json` file. The application automatically generates the receipt from this data. Below is an example of the JSON structure.
 
 {% highlight json %}
 {
@@ -92,17 +86,5 @@ $scope.calculateReceipt = function(isPrecise, thenFn)
 		}
 	}
 	thenFn();
-}
-{% endhighlight %}
-
-The following part of this function will need to be updated:
-
-{% highlight javascript %}
-var incomeTax = .1 * ($scope.estimate.income - $scope.estimate.married*2000 - $scope.estimate.children*1500);
-$scope.tax = {
-	income: incomeTax,
-	social: 1.1*incomeTax,
-	medicare: .32*incomeTax,
-	source: 'estimate'
 }
 {% endhighlight %}
