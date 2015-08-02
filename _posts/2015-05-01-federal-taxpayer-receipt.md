@@ -7,7 +7,7 @@ source-name: The White House
 source-url: 'https://www.whitehouse.gov/2014-taxreceipt'
 ---
 
-The Federal Taxpayer Receipt is simple, responsive [AngularJS](https://angularjs.org/) application displaying a customizable receipt to taxpayers, which I built from scratch while I was a White House Intern.
+The [Federal Taxpayer Receipt](https://www.whitehouse.gov/2014-taxreceipt) is simple, responsive [AngularJS](https://angularjs.org/) application displaying a customizable receipt to taxpayers, which I built from scratch while I was a White House intern.
 
 ## Structure
 All data for the receipt is kept in a `budget.json` file. The application automatically generates the receipt from this data. Below is an example of the JSON structure.

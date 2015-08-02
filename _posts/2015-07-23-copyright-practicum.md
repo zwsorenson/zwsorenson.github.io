@@ -15,54 +15,6 @@ intro: >
     discusses technical feasibility, and also contributed to other portions.
 ---
 
-
-
-<table class="table table-no-border">
-    <thead>
-        <tr>
-            <td colspan="2"><h2>Memorandum</h2></td>
-        </tr>
-    </thead>
-    <tr>
-        <td>To:</td>
-        <td>Catherine Rowland, Senior Advisor to the Register of Copyrights, U.S. Copyright Office, 202–707–8350, crowland@loc.gov</td>
-    </tr>
-    <tr>
-        <td>From:</td>
-        <td>
-            Stanford Law School Copyright Policy Lab Practicum:
-            <ul>
-                <li>Marta Belcher, Danielle Benecke, Shuk Ting (Candy) Cheng, Amit Gressel, Andrew Grimm, Greg Keenan, Elizabeth Lowell, Sarah Salomon, Nick Sidney, Olga Sunsini, Antoni Terra, Jessica Verran-Lingard, and Kevin Xu, J.D., LL.M. Candidates, Stanford Law School</li>
-                <li>Zachary Sorenson, B.S., M.A. Candidate, Stanford University</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>CC:</td>
-        <td>Maria Pallante, Register of Copyrights <br /> Jacqueline Charlesworth, General Counsel, United States Copyright Office</td>
-    </tr>
-    <tr>
-        <td>CC:</td>
-        <td>
-            Paul Goldstein <br/>
-            Luciana Herman<br />
-            Brian Weissenberg
-        </td>
-    </tr>
-    <tr>
-        <td>Attachment:</td>
-        <td>Research Report, <em>Low-Cost Licensing of Photographs in the Digital Age: Options and a Proof of Concept</em></td>
-    </tr>
-    <tr>
-        <td>Re:</td>
-        <td>Response to the Copyright Office’s April 24, 2015, Notice of Inquiry Regarding Copyright Protection for Certain Visual Works</td>
-    </tr>
-    <tr>
-        <td>Date:</td>
-        <td>July 23, 2015</td>
-    </tr>
-</table>
-
 _The Law and Policy Lab at Stanford Law School is composed of students who are committed to improving public policy in a variety of fields. As Stanford Law students enrolled in the Copyright Policy Lab Practicum, we have spent the 2015 Winter and Spring Quarters under the supervision of Professor Paul Goldstein and Lecturer Luciana Herman conducting policy research on the issues facing photographers in registering their works with the United States Copyright Office, licensing those works for use, and enforcing their rights. We have developed possible options for improving the registration, licensing, and enforcement processes, and we have developed a proof of concept licensing website for photographers and consumers. This research and analysis informs our response to the Copyright Office’s Notice of Inquiry, and is included in an accompanying report, “Low-Cost Licensing of Photographs in the Digital Age: Options and a Proof of Concept.” Our goal is to provide an informed and objective perspective to the Copyright Office as it considers improvements to its current procedures concerning certain visual works._
 
 ### 1. What are the most significant challenges related to monetizing and/or licensing photographs, graphic artworks, and/or illustrations?

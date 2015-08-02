@@ -3,3 +3,30 @@
     font-style: italic;
     margin-bottom: 20px;
 }
+
+// Footer
+footer {
+    margin: 40px auto;
+}
+form.footer-form {
+    margin: 40px auto 100px auto
+}
+
+// Navbar Transitions
+
+.navbar ul.nav {
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+
+@media (min-width: 768px) {
+    .navbar.navbar-hidden ul.nav {
+        opacity: 0;
+    }
+
+    .navbar.navbar-hidden:hover ul.nav {
+        opacity: 1;
+    }
+}
