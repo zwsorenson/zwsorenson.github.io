@@ -43,6 +43,11 @@ layout: default
     {{ content }}
 </article>
 
+{% if page.categories contains "blog" %}
+    {% include comments.html %}
+{% endif %}
+
+
 {% if page.categories contains "projects" %}
     {% if page.download-url %}
     <div class="text-center">

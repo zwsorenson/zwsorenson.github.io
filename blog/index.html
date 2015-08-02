@@ -2,7 +2,7 @@
 layout: post
 title: Blog
 ---
-{% for post in site.categories["blog""] %}
+{% for post in site.categories["blog"] %}
 
 <div style="margin-bottom: 64px;">
     <div class="post-header">
@@ -39,7 +39,8 @@ title: Blog
     {% endif %}
 
     <article>
-        {{ post.content }}
+        {{ post.content | truncatewords: 100 }}
+        <small><a href="{{ post.url }}">More &rarr; </a></small>
     </article>
 </div>
 {% endfor %}
