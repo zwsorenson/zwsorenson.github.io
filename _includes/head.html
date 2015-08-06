@@ -7,6 +7,9 @@
     <title>{% if page.title %}{{ page.title }} | Zachary Sorenson{% else %}Zachary Sorenson{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}{% else %}{{ site.description | truncatewords: 100 }}{% endif %}">
 
+    <!-- Facebook Insights -->
+    <meta property="fb:admins" content="100000193026055" />
+
     <!-- Facebook SDK -->
     <script>
     window.fbAsyncInit = function() {
