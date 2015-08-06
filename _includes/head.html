@@ -5,7 +5,25 @@
 
     <!-- Title and Description -->
     <title>{% if page.title %}{{ page.title }} | Zachary Sorenson{% else %}Zachary Sorenson{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 100 }}{% else %}{{ site.description | truncatewords: 100 }}{% endif %}">
+
+    <!-- Facebook SDK -->
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '884954521552596',
+            xfbml      : true,
+            version    : 'v2.4'
+        });
+    };
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!-- Facebook Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
@@ -34,6 +52,9 @@
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700|Merriweather:400,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Google Analytics -->
     <script>

@@ -44,6 +44,8 @@ layout: default
 </article>
 
 {% if page.categories contains "blog" %}
+    <hr />
+    {% include share.html %}
     {% include comments.html %}
 {% endif %}
 
