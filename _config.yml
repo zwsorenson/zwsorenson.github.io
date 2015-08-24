@@ -3,12 +3,11 @@ title: ZWS
 email: me@zachsorenson.com
 description: > # this means to ignore newlines until "baseurl:"
   I’m a senior at Stanford studying computer science
-  and public policy. I am an avid outdoorsman, an advanced procrastinator, and an unaccomplished violinist. Dutiful CS major that I am, I put together this website so friends and family — and future employers? — can see what I’ve been up to.
+  and public policy. I am an avid outdoorsman, an advanced procrastinator, and an unaccomplished violinist. Self-respecting CS major that I am, I put together this website so friends and family — and future employers? — can see what I’ve been up to.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zws.me" # the base hostname & protocol for your site
 twitter_username: zwsorenson
 github_username:  zwsorenson
-email_address: me@zachsorenson.com
 # Build settings
 markdown: kramdown
 highlighter: pygments
