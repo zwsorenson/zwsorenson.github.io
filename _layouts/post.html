@@ -48,7 +48,10 @@ layout: default
     {% include share.html %}
     {% include comments.html %}
 {% endif %}
-
+{% if page.categories contains "writing" %}
+    <hr />
+    {% include share.html %}
+{% endif %}
 
 {% if page.categories contains "projects" %}
     {% if page.download-url %}
