@@ -1,0 +1,26 @@
+- name: Stanford University
+  url: http://www.stanford.edu
+  start: March 2014
+  end: June 2017
+  description: "M.A. in Public Policy, concentration in law and the legal system (3.90 GPA)."
+  activities:
+        - program: Stanford University Public Policy Program
+          role: M.A. program peer advisor, technology assistant (paid)
+          url: http://publicpolicy.stanford.edu
+
+
+- name: Stanford University
+  url: http://www.stanford.edu
+  start: Sept. 2012
+  end: June 2016
+  description: "B.S. in Computer Science, concentration in cybersecurity policy (3.84 GPA). Economics minor."
+  activities:
+        - program: Center for Democracy, Development, and the Rule of Law
+          role: interdisciplinary honors student
+          url: http://cddrl.fsi.stanford.edu
+        - program: Stanford University Visitor Information Services
+          role: student tour guide (paid)
+          url: http://visit.stanford.edu
+        - program: University of Oxford Cyber Security Centre
+          role: tutorial in privacy, security, surveillance
+          url: https://www.cybersecurity.ox.ac.uk/

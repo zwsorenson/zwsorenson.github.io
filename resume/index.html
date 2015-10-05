@@ -1,0 +1,62 @@
+---
+layout: page
+title: Resume
+---
+<h2>Education</h2>
+{% for school in site.data.resume.education %}
+    <h3>
+        <a href="{{ school.url }}">{{ school.name }}</a>
+        <small class="pull-right">{{ school.start }} — {{ school.end }}</small>
+    </h3>
+    <p>{{ school.description }}</p>
+
+    {% if school.activities %}
+        <ul>
+            {% for activity in school.activities %}
+                <li>
+                    <a href="{{ activity.url }}">
+                        <b>{{ activity.program }}:</b>
+                    </a>
+                    {{ activity.role }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+{% endfor %}
+
+<hr />
+
+<h2>Experience</h2>
+{% for job in site.data.resume.experience %}
+    <h3>
+        <a href="{{ job.url }}">{{ job.name }}</a>
+        <small class="pull-right">{{ job.start }} — {{ job.end }}</small>
+    </h3>
+    <p>{{ job.title }} <small class="pull-right"></small></p>
+    {% if job.roles %}
+        <ul>
+            {% for role in job.roles %}
+                <li>
+                    {{ role }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+{% endfor %}
+
+<hr />
+
+<h2>Additional Information</h2>
+
+{% for section in site.data.resume.additional %}
+
+    <h3>{{ section.title }}</h3>
+    <ul>
+        {% for item in section.items %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+
+{% endfor %}
