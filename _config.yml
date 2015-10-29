@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zws.me" # the base hostname & protocol for your site
 twitter_username: zwsorenson
 github_username:  zwsorenson
+linkedin_username: zwsorenson
 # Build settings
 markdown: kramdown
 highlighter: pygments

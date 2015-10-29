@@ -4,7 +4,7 @@ title: 'Bucket list check-off: public radio interview'
 categories: blog
 source-thumb: /images/logos/knpr.png
 source-name: Nevada Public Radio
-source-url: 'http://sunlightfoundation.com/blog/2015/08/24/sunlight-joins-coalition-demanding-congressional-research-service-reports-be-published-online/'
+source-url: 'http://knpr.org/knpr/2015-09/gay-eagle-scout-speaks-out-mormons-and-boy-scouts'
 ---
 
 You can listen to the interview here, or on the [Nevada Public Radio website](http://knpr.org/knpr/2015-09/gay-eagle-scout-speaks-out-mormons-and-boy-scouts).
