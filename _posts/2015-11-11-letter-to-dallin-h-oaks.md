@@ -41,8 +41,8 @@ with him and other Church leaders in Oakland:
 
 This story and others like it gave people like my dad hope that the
 Church, albeit slowly and haphazardly, was moving towards a position of
-fuller understanding and acceptance of LGBT people. But the Church’s new
-policies on gay people and their families show that this is not the case
+fuller understanding and acceptance of LGBT people. But the Church’s [new
+policies](https://www.scribd.com/doc/288685756/Changes-to-LDS-Handbook-1-Document-2-Revised-11-3-15-28003-29) on gay people and their families show that this is not the case
 — at least not yet.
 
 Under the new policy, if I stay in the Church and marry someone I love,
