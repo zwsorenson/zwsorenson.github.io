@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A letter to Mormon leaders
+title: A letter to Mormon apostle Dallin H. Oaks
 categories: blog
 image-url: '/images/blog/oaks.jpg'
 image-caption: 'Dallin H. Oaks is an apostle in the Church of Jesus Christ of Latter-Day Saints.'
