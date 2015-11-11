@@ -65,8 +65,7 @@ policy are threatening families around the world — including my own. My
 dad, a bishop during Proposition 8 and advocate for gay Mormons for the
 past decade, is discouraged and distraught. My mom is sad and upset. My
 sister, a full-time missionary in San Diego, now has to represent an
-organization that has all but disavowed her brother, in deed if not not
-always in word.
+organization that has disavowed her brother, in deed if not always in word.
 
 My experience growing up in the Church was overwhelmingly positive, and
 friends and leaders in my local congregation have been nothing but
