@@ -73,7 +73,7 @@ loving and supportive. But I cannot in good conscience be a part of a
 church where my welcome is conditional on rejecting a core part of my
 identity. I do not want to be a part of a church where children are
 excluded because of who their parents love. I cannot support a church
-that drives teens questioning their sexuality to suicide instead of to
+that too often drives teens questioning their sexuality to suicide instead of to
 support.
 
 In 2013, Elder Uchtdorf
