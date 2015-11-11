@@ -34,3 +34,10 @@ form.footer-form {
         opacity: 1;
     }
 }
+
+span.redacted {
+    display: inline-block;
+    width: 150px;
+    height: 1.5em;
+    background-color: #000000;
+}
