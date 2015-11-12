@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A letter to Mormon apostle Dallin H. Oaks
+title: A letter to Mormon Apostle Dallin H. Oaks
 categories: blog
 image-url: '/images/blog/oaks.jpg'
 image-caption: 'Dallin H. Oaks is an apostle in the Church of Jesus Christ of Latter-Day Saints.'
@@ -31,7 +31,7 @@ This story and others like it gave people like me and my dad hope that the Churc
 
 Under the new policy, if I stay in the Church and marry someone I love--- a goal my Mormon upbringing has emphasized --- I will be considered an apostate. I will be subjected to a mandatory disciplinary council, and possibly excommunicated, for a “particularly grievous” sin apparently comparable to rape or murder, and any children I have will be barred from church membership.
 
-Jesus said, “Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God” (Luke 18:16)
+Jesus said, “Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God” (Luke 18:16).
 
 The new Church policy, however, says a “child of a parent living in a same-gender relationship” may not be “baptized, confirmed, ordained, or recommended for mission service” unless the child “specifically disavows the practice of same-gender cohabitation in marriage” — forcing children to choose between their family and their faith.
 
