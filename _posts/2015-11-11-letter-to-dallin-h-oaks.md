@@ -3,7 +3,7 @@ layout: post
 title: A letter to Mormon Apostle Dallin H. Oaks
 categories: blog
 image-url: '/images/blog/oaks.jpg'
-image-caption: 'Dallin H. Oaks is an apostle in the Church of Jesus Christ of Latter-Day Saints.'
+image-caption: 'Dallin H. Oaks is an apostle in the Church of Jesus Christ of Latter-day Saints.'
 ---
 
 Dear Elder Oaks,
@@ -41,7 +41,7 @@ In 2013, Elder Uchtdorf [said](https://www.lds.org/general-conference/2013/10/co
 
 My experience growing up in the Church was overwhelmingly positive, and friends and leaders in my local congregation have been nothing but loving and supportive. But I cannot in good conscience continue to be a part of a church where my official welcome is conditional on rejecting a core part of my identity. I do not want to belong to an organization where children are excluded because of who their parents love. I cannot support teachings that too often drive teens questioning their sexuality to suicide instead of to support.
 
-The Church of Jesus Christ of Latter-Day Saints does not have to be this
+The Church of Jesus Christ of Latter-day Saints does not have to be this
 kind of place. I hope that it will not be for much longer. As long as it is, though, I choose to withdraw my membership.
 
 
