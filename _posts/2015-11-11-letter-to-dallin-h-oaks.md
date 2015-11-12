@@ -61,31 +61,27 @@ parents and family. Of whose kingdom is that?
 
 The Church claims its condemnation of gay relationships is about
 protecting families. But the Church’s position and especially its new
-policy are threatening families around the world — including my own. My
+policy are dividing families around the world — including my own. My
 dad, a bishop during Proposition 8 and advocate for gay Mormons for the
-past decade, is discouraged and distraught. My mom is sad and upset. My
+past decade, is discouraged and distraught. My mom is sad and frustrated. My
 sister, a full-time missionary in San Diego, now has to represent an
-organization that has disavowed her brother, in deed if not always in word.
+organization that has all but disavowed her brother.
 
 My experience growing up in the Church was overwhelmingly positive, and
 friends and leaders in my local congregation have been nothing but
 loving and supportive. But I cannot in good conscience be a part of a
 church where my welcome is conditional on rejecting a core part of my
-identity. I do not want to be a part of a church where children are
-excluded because of who their parents love. I cannot support a church
-that too often drives teens questioning their sexuality to suicide instead of to
+identity. I do not want to belong to a church where children are
+excluded because of who their parents love. I cannot support teachings that too often drive teens questioning their sexuality to suicide instead of to
 support.
 
 In 2013, Elder Uchtdorf
 [said](https://www.lds.org/general-conference/2013/10/come-join-with-us?lang=eng&clang=ase)
 “...regardless of your circumstances, your personal history, or the
-strength of your testimony, there is room for you in this Church.” Not
-anymore, apparently.
+strength of your testimony, there is room for you in this Church.” He should add, "unless you or your parents are gay."
 
 The Church of Jesus Christ of Latter-Day Saints does not have to be this
-kind of church. As long as it is, though, I do not want my name on its
-membership rolls. I am hereby resigning my membership, effective
-immediately. Please remove the following entry from Church records:
+kind of church. As long as it is, though, I choose to withdraw my membership. Please remove the following entry from Church records:
 
 <table class="table">
     <tr>
