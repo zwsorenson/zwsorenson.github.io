@@ -6,3 +6,5 @@ _site
 copy.html
 
 copy.md
+
+.DS_Store
