@@ -11,4 +11,4 @@ github_username:  zwsorenson
 linkedin_username: zwsorenson
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
