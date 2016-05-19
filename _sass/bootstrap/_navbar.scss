@@ -16,7 +16,7 @@
 
   font-family: $font-family-sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-size: $font-size-small;
 
   // Prevent floats from breaking the navbar
@@ -167,11 +167,10 @@
 
 .navbar-brand {
   float: left;
-  padding: $navbar-padding-vertical $navbar-padding-horizontal;
+  padding: ($navbar-padding-vertical - 3) $navbar-padding-horizontal;
   font-size: $font-size-large;
   font-family: $font-family-serif;
-  font-weight: 300;
-  // letter-spacing: 3px;
+  font-weight: 400;
   text-transform: none;
   line-height: $line-height-computed;
   height: $navbar-height;
