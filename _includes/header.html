@@ -15,7 +15,7 @@
             {% endif %}
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav {% if page.url == "/" %} navbar-right {% endif %}">
                 <li {% if page.url contains "/blog/" %} class="" {% endif %}>
                     <a href="/blog/">Blog</a>
                 </li>
