@@ -69,7 +69,7 @@ family life” and "protection of personal data” — rights not explicitly
 granted in the United States Constitution — as fundamental freedoms
 afforded to European citizens.[^10]
 
-###The 1995 E.U. Data Privacy Directive
+### The 1995 E.U. Data Privacy Directive
 
 In 1995, the European Commission, fulfilling its mandate to protect its
 citizens’ fundamental rights and envisioning a future where "economic
