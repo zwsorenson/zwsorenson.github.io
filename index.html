@@ -1,22 +1,27 @@
 ---
-layout: default
+layout: home
 ---
 
+<div class="jumbotron">
+    <div class="container">
+        <h1>Zachary W. Sorenson</h1>
+        <p>
+            <img src="/images/zws.jpg" class="img-circle pull-right post-caption" style="max-width: 180px"/>
+            {{ site.description }}
+        </p>
+        <p>You can <a href="mailto:{{ site.email }}">email me</a> if you want, or <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}">link me in</a>.</p>
+    </div>
+</div>
 
+<div class="container">
 
-<!-- <h2>Hello</h2> -->
-<br/>
-<p>
-    <img src="/images/zws.jpg" class="img-circle pull-right post-caption" style="max-width: 144px"/>
-    {{ site.description }}
-</p>
-<p>You can <a href="mailto:{{ site.email }}">email me</a> if you want, or <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}">link me in</a>.</p>
+    <h2 class="page-header"><a href="/writing/">Writing</a></h2>
+    {% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
 
-<h2 class="page-header"><a href="/writing/">Writing</a></h2>
-{% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
+    <h2 class="page-header"><a href="/projects/">Projects</a></h2>
+    {% include feed.html category="projects" date="%B %Y" limit=2 %}
 
-<h2 class="page-header"><a href="/projects/">Projects</a></h2>
-{% include feed.html category="projects" date="%B %Y" limit=2 %}
+    <h2 class="page-header"><a href="/blog/">Blog</a></h2>
+    {% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
 
-<h2 class="page-header"><a href="/blog/">Blog</a></h2>
-{% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
+</div>
