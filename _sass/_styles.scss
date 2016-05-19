@@ -11,6 +11,11 @@
 // Footer
 footer {
     margin: 40px auto;
+    font-size: 16px;
+    color: #978d85;
+    a, a:hover, a:active, a:visited {
+        color: #978d85;
+    }
 }
 form.footer-form {
     margin: 40px auto 100px auto
