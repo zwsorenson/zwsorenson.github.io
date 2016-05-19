@@ -8,7 +8,12 @@
   padding-bottom: $jumbotron-padding;
   margin-bottom: $jumbotron-padding;
   color: $jumbotron-color;
+  background-image: $jumbotron-bg-image;
   background-color: $jumbotron-bg;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-attachment: fixed;
+  background-position: center;
 
   h1,
   .h1 {
