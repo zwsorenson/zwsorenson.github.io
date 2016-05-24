@@ -28,8 +28,14 @@
 
   a {
       color: lighten($brand-secondary, 25%);
-      &:hover, &:active, &:visited {
+      &:hover, &:active {
           color: $jumbotron-heading-color;
+      }
+  }
+  small a {
+      padding: 2px 4px;
+      &:hover {
+          background-color: $brand-secondary;
       }
   }
 
