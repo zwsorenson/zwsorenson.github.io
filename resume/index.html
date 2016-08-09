@@ -3,13 +3,194 @@ layout: page
 title: Resume
 ---
 
-
 <!-- LinkedIn Profile -->
 <!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
 <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/zwsorenson" data-format="inline"></script> -->
 
+<!-- NAVIGATION -->
+
+<nav class="navbar navbar-default navbar-fixed-bottom" id="resume-nav">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#Education">Education</a></li>
+                {% for cat_hash in site.data.experience %}
+                <li><a href="#{{cat_hash[0]}}">{{ cat_hash[0] | replace: '_',' ' }}</a></li>
+                {% endfor %}
+                <li><a href="#Additional">More</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://drive.google.com/a/sorenson.me/file/d/0B9_aWCBixD04Nl9BcWRVY1VfRTA/preview"> Download&nbsp;&nbsp; <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<a name="Education"></a>
+<h2 id="Education">Education</h2>
+
+{% for sch_hash in site.data.education %}
+{% assign school = sch_hash[1] %}
+<div class="panel panel-resume panel-default" style="{% if school.bg-color %}border-color: #{{school.bg-color}};{% endif %}">
+
+    <div class="panel-heading" style="{% if school.bg-color %}background-color: #{{school.bg-color}}; border-color: #{{school.bg-color}};{% endif %}{% if school.bg-image %}background-image: url({{school.bg-image.url}}); {{school.bg-image.style}}{% endif %}">
+        <h3 class="panel-title" style="{% if school.text-color %} color: #{{school.text-color}};{% endif %}">
+            <a href="{{ school.url }}"><img src="{{ school.logo.file }}" alt="{{ school.logo.alt}}" height="60" style="{{school.logo.style}}"/>{{ school.logo.text }}<img src="{{ school.second-logo.file }}" alt="{{ school.second-logo.alt }}" height="54" style="margin: 3px 0;"/><small style="margin-left: 12px;">{{ school.second-logo.text }}</small></a>
+            <small class="pull-right"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ school.location }}</small>
+        </h3>
+    </div>
+
+    <div class="panel-body">
+        <p><strong>{{ school.degree }}</strong><span class="pull-right">{{ school.finish }}</span></p>
+        <ul>
+            {% for bullet in school.description %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+        </ul>
+        {% if school.testimonial %}
+            <blockquote>
+                <p>{{ school.testimonial.text }}</p>
+                <footer>{{ school.testimonial.source }}</footer>
+            </blockquote>
+        {% endif %}
+    </div>
+    <div class="panel-footer" data-toggle="collapse" href="#{{sch_hash[0]}}-classes">
+        <span><small><small><strong>Show coursework...</strong> <span class="pull-right glyphicon glyphicon-menu-down"></span></small></small> </span>
+    </div>
+    <div class="collapse" id="{{sch_hash[0]}}-classes">
+        <table class="table">
+            {% for course in school.courses %}
+            <tr><td>{{ course.number }}</td><td>{{ course.name }}</td></tr>
+            {% endfor %}
+        </table>
+    </div>
+
+</div>
+
+{% endfor %}
+
+
+<!-- EXPERIENCE -->
+
+{% for cat_hash in site.data.experience %}
+{% assign cat_name = cat_hash[0] %}{% assign category = cat_hash[1] %}
+
+    <a name="{{cat_name}}"></a>
+    <h2 id="{{cat_name}}">{{ cat_name | replace: '_',' ' }} Experience</h2>
+
+    {% for job_hash in category %}
+    {% assign job = job_hash[1] %}
+    <div class="panel panel-resume panel-default" style="{% if job.bg-color %}border-color: #{{job.bg-color}};{% endif %}">
+
+        <div class="panel-heading" style="{% if job.bg-color %}background-color: #{{job.bg-color}}; border-color: #{{job.bg-color}};{% endif %}{% if job.bg-image %}background-image: url({{job.bg-image.url}}); {{job.bg-image.style}}{% endif %}">
+            <h3 class="panel-title" style="{% if job.text-color %} color: #{{job.text-color}};{% endif %}">
+                <a href="{{ job.url }}"><img src="{{ job.logo.file }}" alt="{{ job.logo.alt}}" height="60" style="{{job.logo.style}}"/>{{ job.logo.text }}</a>
+                <small class="pull-right"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ job.location }}</small>
+            </h3>
+        </div>
+
+        <div class="panel-body">
+            {% for role in job.roles %}
+            <p>
+                <!-- <a class="resume-toggle collapsed" data-toggle="collapse" href="#{{job_hash[0]}}_{{ forloop.index }}"><small><i class="fa fa-minus-circle" aria-hidden="true"></i></small></a> -->
+                <strong>{{ role.title }}</strong>
+                <span class="pull-right">{{ role.start }} - {% if role.finish %}{{ role.finish }} {% else %}Present{% endif %}</span>
+            </p>
+            <!-- <div class="collapse" id="{{job_hash[0]}}_{{ forloop.index }}"> -->
+                <ul>
+                    {% for bullet in role.description %}
+                    <li>{{ bullet }}</li>
+                    {% endfor %}
+                </ul>
+                <!-- {% if role.testimonial %}
+                    <blockquote>
+                        <p>{{ role.testimonial.text }}</p>
+                        <footer>{{ role.testimonial.source }}</footer>
+                    </blockquote>
+                {% endif %} -->
+            <!-- </div> -->
+            {% endfor %}
+        </div>
+
+    </div>
+
+    {% endfor %}
+{% endfor %}
+
+
+<a name="Additional"></a>
+<h2 id="Additional">Additional Information</h2>
+    <table class="table">
+        <tr>
+            <td>
+                <strong>Activities</strong>
+            </td>
+            <td>
+                <ul>
+                    <li><em>Stanford Political Journal</em></li>
+                    <li>Stanford in Government</li>
+                    <li>Stanford Outdoor Education</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Awards</strong>
+            </td>
+            <td>
+                <ul>
+                    <li>Stanford Award of Excellence (2016)</li>
+                    <li>Stanford in Government Fellowship (2015)</li>
+                    <li>Eagle Scout, Boy Scouts of America (2010)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Media</strong>
+            </td>
+            <td>
+                <ul>
+                    <li>Published author in <em>Slate Magazine</em></li>
+                    <li>Featured guest on KNPR’s <em>State of Nevada</em></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Technical Skills</strong>
+            </td>
+            <td>
+                <ul>
+                    <li>Java</li>
+                    <li>C<sup>++</sup></li>
+                    <li>C</li>
+                    <li>JavaScript</li>
+                    <li>AngularJS</li>
+                    <li>HTML and CSS</li>
+                    <li>Adobe Creative Suite</li>
+                    <li>Stata</li>
+                    <li>LaTeX</li>
+                    <li>EndNote</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 
 <!-- Google Drive Resume -->
-<div class="iframe-container">
-    <iframe src="https://drive.google.com/a/sorenson.me/file/d/0B9_aWCBixD04Nl9BcWRVY1VfRTA/preview" width="640" height="830"></iframe>
-</div>
+<!-- <div class="iframe-container">
+<iframe src="https://drive.google.com/a/sorenson.me/file/d/0B9_aWCBixD04Nl9BcWRVY1VfRTA/preview" width="640" height="830"></iframe>
+</div> -->

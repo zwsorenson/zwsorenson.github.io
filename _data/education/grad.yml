@@ -1,0 +1,41 @@
+name: Stanford University
+location: Stanford, California
+url: http://www.stanford.edu
+bg-color: 8c1515
+text-color: ffffff
+logo:
+    file: /images/logos_resume/stanford.png
+    alt: "Stanford University"
+    text: ""
+second-logo:
+    file: /images/logos_resume/stanford_hands.png
+    text: ""
+degree: M.A. in Public Policy
+finish: June 2017
+description:
+    - Coursework in economics, law, elections, state politics, and technology policy.
+courses:
+    - number: PHIL 171
+      name: Justice
+    - number: SIW 106
+      name: Criminal Justice Policy
+    - number: SIW 107
+      name: Civil Rights Law
+    - number: LAW 414D
+      name: Copyright Policy Practicum
+    - number: PUBLPOL 154
+      name: Politics and Policy in California
+    - number: PUBLPOL 308
+      name: Political Analysis for Public Policymakers
+    - number: PUBLPOL 204
+      name: Economic Policy Analysis
+    - number: PUBLPOL 251
+      name: Science Policy, National Security, and Cybersecurity
+    - number: ETHICSOC 111
+      name: Leadership Challenges
+    - number: STATS 202
+      name: Data Mining and Analysis
+    - number: PUBLPOL 206
+      name: Law and Economics
+    - number: MS&amp;E 297
+      name: Hacking for Defense
