@@ -7,4 +7,47 @@ Some pieces I have written for classes, internships and jobs — and also from 
 
 <hr />
 
-{% include feed.html category="writing" date="%b %-d, %Y" %}
+{% for post in site.categories["writing"] %}
+
+    <h5>
+        <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+    </h5>
+
+    {% if post.source-name %}
+        <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
+            <a href="{{ post.url }}" style="display: block;">
+                <p>
+                    {% if post.source-name %}
+                    {{ post.noun | capitalize | default: "Post"}} {{ post.verb | default: "written for" }} <em>{{ post.source-name }}</em>:
+                    {% endif %}
+                </p>
+            </a>
+
+        </div>
+    {% endif %}
+
+    <div class="paper">
+        {% if post.source-thumb %}
+        <div class="media-left">
+            <img class="media-object" src="{{ post.source-thumb }}" alt="{{ post.source-name }}" style="max-height: 64px; margin-top: 18px;"/>
+        </div>
+        {% endif %}
+        <div class="media-right">
+            <h5>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h5>
+
+            <article>
+                {{ post.content | truncatewords: 60 }}
+
+                <p>
+                    <small><a href="{{ post.url }}">
+                        {{ post.action | default: "read" | capitalize}} {{ post.noun | default: "post"}}&hellip;
+                    </a></small>
+
+                </p>
+            </article>
+        </div>
+    </div>
+    
+{% endfor %}

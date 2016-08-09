@@ -6,22 +6,23 @@ layout: home
     <h1>Recent Updates</h1>
     <hr>
 
-    {% for post in site.posts limit: 10 %}
+    {% for post in site.posts limit: 4 %}
 
         <h5>
             <small>{{ post.date | date: "%B %-d, %Y" }}</small>
         </h5>
 
         {% if post.source-name %}
-            <a href="{{ post.url }}" style="display: block;">
-                <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
+            <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
+                <a href="{{ post.url }}" style="display: block;">
                     <p>
                         {% if post.source-name %}
                         {{ post.noun | capitalize | default: "Post"}} {{ post.verb | default: "written for" }} <em>{{ post.source-name }}</em>:
                         {% endif %}
                     </p>
-                </div>
-            </a>
+                </a>
+
+            </div>
         {% endif %}
 
         <div class="paper">
@@ -50,9 +51,15 @@ layout: home
                 </p>
             </article>
         </div>
-
-
-
     {% endfor %}
+
+    <div class="col-sm-12">
+        <div class="col-sm-6">
+            <p><a class="btn btn-default btn-block" href="/writing">More writing&hellip;</a></p>
+        </div>
+        <div class="col-sm-6">
+            <p><a class="btn btn-default btn-block" href="/writing">More blog posts&hellip;</a></p>
+        </div>
+    </div>
 
 </div>
