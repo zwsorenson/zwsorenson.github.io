@@ -1,0 +1,22 @@
+name: The White House
+location: Washington, D.C.
+url: http://www.whitehouse.gov
+bg-color: 2f5a8b
+text-color: ffffff
+bg-image:
+    url: /images/logos_resume/wh_bg.png
+    style: "background-position: center top; background-repeat: no-repeat;"
+logo:
+    file: /images/logos_resume/wh.png
+    alt: ""
+    text: "The White House"
+roles:
+    - title: Digital Strategy Intern
+      start: Sept. 2014
+      finish: Dec. 2014
+      description:
+          - Created more than 75 blog posts and custom pages for WhiteHouse.gov as the only intern with full back-end web access. Built pages viewed millions of times, including the announcement of executive action on immigration.
+          - Built interactive tools, data visualizations, charts, and maps, including the revamped 2015 Federal Taxpayer Receipt.
+      testimonial:
+          text: During his time with our team, Mr. Sorenson exhibited a calmness under tremendous pressure, a thoughtful and critical eye for content hierarchy, policy communications, technology, and design, making him an invaluable asset. Performing above and beyond the average intern, Mr. Sorenson was given more responsibility, room for exploration and discovery than others. Sometimes we found it difficult to remember that he was still a student rather than someone with a great deal more professional life experience.
+          source: Ashleigh Axios, White House Creative Director
