@@ -24,7 +24,7 @@ title: Blog
                 <a class="btn btn-sm btn-default btn-block" href="{{ post.url }}">Continue reading&hellip;</a>
             </p>
 
-            <a href="{{ post.url | preped: site.url }}#disqus_thread"></a>
+            <a href="{{ post.url | prepend: site.url }}#disqus_thread">Comments</a>
         </article>
     </div>
 {% endfor %}
