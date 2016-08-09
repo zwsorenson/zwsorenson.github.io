@@ -1,0 +1,29 @@
+name: Amigos de las Americas
+location: Houston, Texas
+url: http://www.amigosinternational.org
+bg-color: 53a196
+text-color: ffffff
+logo:
+    file: /images/logos_resume/amigos.png
+    alt: "Amigos de las Americas"
+    text: ""
+roles:
+    - title: Training Director, Peninsula Chapter
+      start: Sept. 2013
+      description:
+          - Prepare 36 high school students to live and work as summer community development volunteers in Latin America.
+          - Manage and mentor eight-member training staff and tailor implementation of standardized training curriculum.
+      testimonial:
+          text: What impresses me the most about Zach is his demeanor and the way he interacts with others, whether they be high school students or adults. He always has a sparkle in his eye and is quick to smile or find humor in almost any situation. When faced with difficulties or last-minute changes, Zach is unfazed — he just rolls up his sleeves and moves on with the task at hand. His can-do work ethic, persistence, affable personality, and even-handed approach with people served him well as one of our Chapter leaders.
+          source: Dan Ponti, President, Board of Directors
+    - title: Trainer, East Bay Chapter
+      start: Sept. 2011
+      finish: Aug. 2012
+      description:
+          - Returned to prepare new volunteers by organizing training on community development and cultural awareness.
+    - title: Community Volunteer, Las Cabras, Panama
+      start: Sept. 2009
+      finish: Aug. 2010
+      description:
+          - Lived alone with a Spanish-speaking host family in rural Panama after completing a year-long training program.
+          - Conducted a daily environmental education program for local students and organized construction of a playground.

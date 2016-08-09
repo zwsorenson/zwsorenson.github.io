@@ -1,0 +1,28 @@
+name: Stanford Public Policy Program
+location: Stanford, CA
+url: http://publicpolicy.stanford.edu
+bg-color: f2f1eb
+text-color: 8c1515
+logo:
+    file: /images/logos_resume/stanford_seal.png
+    alt: ""
+    text: "Stanford Public Policy Program"
+roles:
+    - title: Teaching Assistant, Politics and Policy in California
+      start: Dec. 2015
+      finish: March 2016
+      description:
+          - Worked closely with instructors Joe Nation and David Crane to lead a 20-student seminar that met Stanford’s “writing in the major” requirement.
+          - Developed course curriculum, managed logistics, and provided feedback on students’ writing.
+
+    - title: Coterminal Masters Program Peer Advisor
+      start: Aug. 2015
+      finish: June 2016
+      description:
+          - Discuss coterminal M.A. program with prospective students at quarterly information sessions and over email.
+
+    - title: Web and Technology Assistant
+      start: Jan. 2014
+      finish: June 2014
+      description:
+          - Redesigned and reorganized the Public Policy Program’s main academic website, <a href="https://publicpolicy.stanford.edu/">publicpolicy.stanford.edu</a>.
