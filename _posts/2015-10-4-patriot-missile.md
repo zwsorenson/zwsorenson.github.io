@@ -2,6 +2,8 @@
 layout: post
 title: Patching Problems and the Patriot Missile Defense System
 categories: writing
+noun: paper
+color: 8c1515
 source-thumb: '/images/logos/stanford.png'
 source-name: 'Computers, Ethics, and Public Policy (CS 181)'
 ---
