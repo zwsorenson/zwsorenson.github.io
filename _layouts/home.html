@@ -5,7 +5,11 @@
 
 <body>
 
-    {% include header.html %}
+    <nav class="navbar  navbar-inverse navbar-static-top">
+        {% include navbar_contents.html %}
+    </nav>
+
+    {% include jumbotron.html %}
 
     {{ content }}
 

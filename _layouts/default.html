@@ -5,7 +5,9 @@
 
 <body {% if page.url contains "resume" %}data-spy="scroll" data-target="#resume-nav" {% endif %}>
 
-    {% include header.html %}
+    <nav class="navbar  navbar-inverse navbar-fixed-top">
+        {% include navbar_contents.html %}
+    </nav>
 
     <div class="container" style="padding-top: 60px;">
         {{ content }}

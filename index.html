@@ -2,26 +2,57 @@
 layout: home
 ---
 
-<div class="jumbotron">
-    <div class="container">
-        <h1>Zachary Sorenson</h1>
-        <p>
-            <img src="/images/zws.jpg" class="img-circle pull-right post-caption" style="max-width: 144px"/>
-            {{ site.description }}
-        </p>
-        <p><small><a href="/about/">About me &rarr;</a></small></p>
-    </div>
-</div>
-
 <div class="container">
+    <h1>Recent Updates</h1>
+    <hr>
 
-    <h2 class="page-header"><a href="/writing/">Writing</a></h2>
-    {% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
+    {% for post in site.posts limit: 10 %}
 
-    <h2 class="page-header"><a href="/projects/">Projects</a></h2>
-    {% include feed.html category="projects" date="%B %Y" limit=2 %}
+        <h5>
+            <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+        </h5>
 
-    <h2 class="page-header"><a href="/blog/">Blog</a></h2>
-    {% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
+        {% if post.source-name %}
+            <a href="{{ post.url }}" style="display: block;">
+                <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
+                    <p>
+                        {% if post.source-name %}
+                        {{ post.noun | capitalize | default: "Post"}} {{ post.verb | default: "written for" }} <em>{{ post.source-name }}</em>:
+                        {% endif %}
+                    </p>
+                </div>
+            </a>
+        {% endif %}
+
+        <div class="paper">
+            {% if post.source-name %}
+                <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+            {% else %}
+                <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                <hr>
+            {% endif %}
+
+            <article>
+                {% if post.source-name %}
+                    {{ post.content | truncatewords: 25 }}
+                {% else %}
+                    {{ post.content | truncatewords: 200 }}
+                {% endif %}
+
+                <p>
+                    {% if post.source-name %}
+                    <small><a href="{{ post.url }}">
+                        {{ post.action | default: "read" | capitalize}} {{ post.noun | default: "post"}}&hellip;
+                    </a></small>
+                    {% else %}
+                    <a class="btn btn-sm btn-default btn-block" href="{{ post.url }}">Continue reading&hellip;</a>
+                    {% endif %}
+                </p>
+            </article>
+        </div>
+
+
+
+    {% endfor %}
 
 </div>
