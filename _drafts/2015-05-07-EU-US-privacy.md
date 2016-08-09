@@ -2,7 +2,6 @@
 layout: post
 title: Privacy in the European Union and the United States
 categories: writing
-noun: essay
 source-thumb: '/images/logos/cyber.png'
 source-name: University of Oxford Cyber Security Centre
 source-url: 'http://www.cybersecurity.ox.ac.uk/'

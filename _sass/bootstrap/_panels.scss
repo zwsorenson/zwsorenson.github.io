@@ -24,14 +24,6 @@
   border-bottom: 1px solid transparent;
   @include border-top-radius(($panel-border-radius - 1));
 
-  h1, h2, h3, h4, h5, h6 {
-      font-weight: 300;
-  }
-
-  img {
-      margin: 0px 15px 0px 0px;
-  }
-
   > .dropdown .dropdown-toggle {
     color: inherit;
   }
@@ -44,26 +36,13 @@
   font-size: ceil(($font-size-base * 1.125));
   color: inherit;
 
-  a,
-  small,
-  .small,
-  small > a,
-  .small > a {
+  > a,
+  > small,
+  > .small,
+  > small > a,
+  > .small > a {
     color: inherit;
   }
-  a:hover,
-  small > a:hover,
-  .small > a:hover,
-  a:active,
-  small > a:active,
-  .small > a:active,
-  a:visited,
-  small > a:visited,
-  .small > a:visited {
-    color: inherit;
-  }
-
-
 }
 
 // Optional footer (stays gray in every modifier class)
@@ -289,17 +268,4 @@
 }
 .panel-danger {
   @include panel-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
-}
-
-.panel-resume,
-.panel-primary .panel-resume,
-.panel-default .panel-resume {
-    border: 0px;
-    @include box-shadow(-3px 3px 0px rgba(0,0,0,.05));
-
-    .panel-body {
-    }
-
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
 }

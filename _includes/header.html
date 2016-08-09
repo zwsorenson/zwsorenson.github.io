@@ -17,12 +17,21 @@
             {% endif %}
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li {% if page.url contains "/about/" %} class="active" {% endif %}>
+            <ul class="nav navbar-nav {% if page.url == "/" %} navbar-right {% endif %}">
+                <li {% if page.url contains "/about/" %} class="" {% endif %}>
                     <a href="/about/">About</a>
                 </li>
-                <li {% if page.url contains "/resume/" %} class="active" {% endif %}>
+                <li {% if page.url contains "/resume/" %} class="" {% endif %}>
                     <a href="/resume/">Resume</a>
+                </li>
+                <li {% if page.url contains "/projects/" %} class="" {% endif %}>
+                    <a href="/projects/">Projects</a>
+                </li>
+                <li {% if page.url contains "/writing/" %} class="" {% endif %}>
+                    <a href="/writing/">Writing</a>
+                </li>
+                <li {% if page.url contains "/blog/" %} class="" {% endif %}>
+                    <a href="/blog/">Blog</a>
                 </li>
             </ul>
         </div><!--/.nav-collapse -->
