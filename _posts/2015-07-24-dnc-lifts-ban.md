@@ -2,6 +2,8 @@
 layout: post
 title: 'DNC retreats, lifts ban on money from lobbyists and PACs'
 categories: writing
+noun: blog post
+color: cda812
 source-thumb: /images/logos/sunlight.png
 source-name: The Sunlight Foundation
 source-url: 'http://sunlightfoundation.com/blog/2015/07/24/dnc-retreats-lifts-ban-on-money-from-lobbyists-and-pacs/'

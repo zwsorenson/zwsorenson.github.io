@@ -2,6 +2,7 @@
 layout: post
 title: 'A Return to Great Power Rivalries?'
 categories: writing
+noun: paper
 source-thumb: '/images/logos/stanford.png'
 source-name: 'Challenges and Dilemmas in American Foreign Policy (POLISCI 214R)'
 ---
