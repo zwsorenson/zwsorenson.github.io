@@ -1,0 +1,15 @@
+name: Hospital de la Familia
+location: Nuevo Progreso, Guatemala
+bg-color: 444444
+text-color: ffffff
+logo:
+    file: /images/logos_resume/hdlf.png
+    alt: ""
+    text: "Hospital de la Familia"
+roles:
+    - title: Operating Room Assistant, Spanish Translator
+      start: 2008
+      finish: 2015
+      description:
+          - Volunteered on five medical missions, interviewing patients, taking measurements, and assisting with cataract surgeries.
+          - Helped interview and hire a full-time Guatemalan ophthalmologist, making the hospital eligible for a major grant.
