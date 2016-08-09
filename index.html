@@ -14,74 +14,14 @@ layout: home
 </div>
 
 <div class="container">
-    <h1>Recent Updates</h1>
-    <hr>
 
-    {% for post in site.posts %}
-        <!-- BLOG POST -->
-        {% if post.categories contains "blog" %}
-        <div style="margin-bottom: 64px;">
-            <div class="post-header">
-                {% if page.source-thumb %}
-                    <div class="pull-right">
-                        <a href="{{ post.source-url }}">
-                            <img class="media-object" src="{{ post.source-thumb }}" alt="{{ post.source-name }}" style="max-width: 64px;"/>
-                        </a>
-                    </div>
-                {% endif %}
-                <div>
-                    <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
-                    <h4>
-                        <small>
-                            {{ post.date | date: "%b %-d, %Y" }}
-                            {% if post.source-name %} ·
-                                {% if post.source-url %}<a href="{{ post.source-url }}">{% endif %}
-                                {{ post.source-name }}
-                                {% if post.source-url %}</a>{% endif %}
+    <h2 class="page-header"><a href="/writing/">Writing</a></h2>
+    {% include feed.html category="writing" date="%b %-d, %Y" limit=2 %}
 
-                            {% endif %}
-                        </small>
-                    </h4>
-                </div>
-            </div>
+    <h2 class="page-header"><a href="/projects/">Projects</a></h2>
+    {% include feed.html category="projects" date="%B %Y" limit=2 %}
 
-            {% if post.image-url %}
-                <div class="pull-right col-sm-6 post-caption">
-                    <img src="{{ post.image-url }}" class="img-responsive" />
-                    {% if post.image-caption %}
-                        <small>{{ post.image-caption }}</small>
-                    {% endif %}
-                </div>
-            {% endif %}
-
-            <article>
-                {{ post.content | truncatewords: 50 }}
-                <small><a href="{{ post.url }}">More &rarr; </a></small>
-            </article>
-        </div>
-        {% endif %}
-
-        {% if post.categories contains "writing" %}
-
-
-        <div class="pre-paper">
-            <p>
-                {% if post.source-name %}
-                {{ post.noun | capitalize}} {% if post.source-url %}<a href="{{ post.source-url }}">{% endif %} originally written for <em>{{ post.source-name }}</em>{% if post.source-url %}</a>{% endif %}:
-                {% endif %}
-            </p>
-        </div>
-        <div class="paper">
-            <h5>
-                <a href="{{ post.url}}">{{ post.title }}</a>
-                <small class="pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>
-            </h5>
-            <article>
-                {{ post.content | truncatewords: 36 }} <a href="{{ post.url }}">More &rarr; </a>
-            </article>
-        </div>
-        {% endif %}
-
-    {% endfor %}
+    <h2 class="page-header"><a href="/blog/">Blog</a></h2>
+    {% include feed.html category="blog" date="%b %-d, %Y" limit=2 %}
 
 </div>

@@ -2,8 +2,6 @@
 layout: post
 title: Pilot program will publicize all FOIA responses at select federal agencies
 categories: writing
-noun: blog post
-color: cda812
 source-thumb: '/images/logos/sunlight.png'
 source-name: The Sunlight Foundation
 source-url: 'http://sunlightfoundation.com/blog/2015/07/13/pilot-program-will-publicize-all-foia-responses-at-select-federal-agencies/'

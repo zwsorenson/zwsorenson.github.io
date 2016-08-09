@@ -2,8 +2,6 @@
 layout: post
 title: Sunlight joins coalition demanding Congressional Research Service reports be published online
 categories: writing
-noun: blog post
-color: cda812
 source-thumb: /images/logos/sunlight.png
 source-name: The Sunlight Foundation
 source-url: 'http://sunlightfoundation.com/blog/2015/08/24/sunlight-joins-coalition-demanding-congressional-research-service-reports-be-published-online/'

@@ -2,8 +2,6 @@
 layout: post
 title: The Mormon Church is Threatening to Leave Scouting. That Would Be a Mistake.
 categories: writing
-noun: essay
-color: 603
 source-thumb: /images/logos/slate.png
 source-name: Slate
 source-url: 'http://www.slate.com/blogs/outward/2015/08/19/lds_and_the_boy_scouts_of_america_why_the_mormons_should_stay_in_scouting.html'

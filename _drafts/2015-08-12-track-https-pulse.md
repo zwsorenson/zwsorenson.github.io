@@ -2,8 +2,6 @@
 layout: post
 title: 'Track which federal websites are using HTTPS with Pulse'
 categories: writing
-noun: blog post
-color: cda812
 source-thumb: /images/logos/sunlight.png
 source-name: The Sunlight Foundation
 source-url: 'http://sunlightfoundation.com/blog/2015/08/12/track-which-federal-websites-are-using-https-with-pulse/'
