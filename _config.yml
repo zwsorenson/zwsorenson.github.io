@@ -4,7 +4,7 @@ email: hi@zachsorenson.com
 description: > # this means to ignore newlines until "baseurl:"
   I’m a graduate student at Stanford studying computer science and public policy. I am an avid outdoorsman, an advanced procrastinator, and an unaccomplished violinist. Self-respecting CS major that I am, I put together this website so friends and family — and future employers? — can see what I’ve been up to.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zws.me" # the base hostname & protocol for your site
+url: "http://zachsorenson.com" # the base hostname & protocol for your site
 twitter_username: zwsorenson
 github_username:  zwsorenson
 linkedin_username: zwsorenson
