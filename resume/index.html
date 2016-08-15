@@ -49,8 +49,8 @@ title: Resume
 
     <div class="panel-heading" style="{% if school.bg-color %}background-color: #{{school.bg-color}}; border-color: #{{school.bg-color}};{% endif %}{% if school.bg-image %}background-image: url({{school.bg-image.url}}); {{school.bg-image.style}}{% endif %}">
         <h3 class="panel-title" style="{% if school.text-color %} color: #{{school.text-color}};{% endif %}">
-            <a href="{{ school.url }}"><img src="{{ school.logo.file }}" alt="{{ school.logo.alt}}" height="60" style="{{school.logo.style}}"/>{{ school.logo.text }}<img src="{{ school.second-logo.file }}" alt="{{ school.second-logo.alt }}" height="54" style="margin: 3px 0;"/><small style="margin-left: 12px;">{{ school.second-logo.text }}</small></a>
-            <small class="pull-right"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ school.location }}</small>
+            <a href="{{ school.url }}"><img src="{{ school.logo.file }}" alt="{{ school.logo.alt}}" height="60" style="{{school.logo.style}}"/>{{ school.logo.text }}<img src="{{ school.second-logo.file }}" alt="{{ school.second-logo.alt }}" height="54" style="margin: 3px 0;"/ class="hidden-xs"><small style="margin-left: 12px;">{{ school.second-logo.text }}</small></a>
+            <small class="pull-right hidden-xs"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ school.location }}</small>
         </h3>
     </div>
 
@@ -99,7 +99,7 @@ title: Resume
         <div class="panel-heading" style="{% if job.bg-color %}background-color: #{{job.bg-color}}; border-color: #{{job.bg-color}};{% endif %}{% if job.bg-image %}background-image: url({{job.bg-image.url}}); {{job.bg-image.style}}{% endif %}">
             <h3 class="panel-title" style="{% if job.text-color %} color: #{{job.text-color}};{% endif %}">
                 <a href="{{ job.url }}"><img src="{{ job.logo.file }}" alt="{{ job.logo.alt}}" height="60" style="{{job.logo.style}}"/>{{ job.logo.text }}</a>
-                <small class="pull-right"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ job.location }}</small>
+                <small class="pull-right hidden-xs"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ job.location }}</small>
             </h3>
         </div>
 

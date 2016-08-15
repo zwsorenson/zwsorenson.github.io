@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+    {% include head.html %}
 
-<body {% if page.url contains "resume" %}data-spy="scroll" data-target="#resume-nav" {% endif %}>
+    <body {% if page.url contains "resume" %}data-spy="scroll" data-target="#resume-nav" {% endif %}>
 
-    <nav class="navbar  navbar-inverse navbar-fixed-top">
-        {% include navbar_contents.html %}
-    </nav>
+        <nav class="navbar  navbar-inverse navbar-fixed-top">
+            {% include navbar_contents.html %}
+        </nav>
 
-    <div class="container" style="padding-top: 60px;">
-        {{ content }}
-    </div>
+        <div class="container" style="padding-top: 60px;">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
 
-    {% include footer.html %}
+        {% include footer.html %}
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-    <div id="fb-root"></div>
-    <script id="dsq-count-scr" src="//zwsorenson.disqus.com/count.js" async></script></body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+        <div id="fb-root"></div>
+        <script id="dsq-count-scr" src="//zwsorenson.disqus.com/count.js" async></script>
+        <script>
+            window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));
+        </script>
+    </body>
 
 </html>

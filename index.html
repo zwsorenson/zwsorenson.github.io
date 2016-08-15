@@ -2,89 +2,125 @@
 layout: home
 ---
 
+{% include jumbotron.html %}
+
+
 <div class="container">
-    <h1>Recent Updates</h1>
-    <hr>
-
-    {% for post in site.posts limit: 10 %}
-        {% if post.categories contains "social" %}
-
-            {% if post.next %}
-                {% if post.next.categories contains "social" %}{% else %}
-                    <div class="row">
-                {% endif %}
-            {% else %}
-                <div class="row">
-            {% endif %}
-                <div class="col-sm-6" style="padding: 15px;">
-                    <h5><small>{{ post.date | date: "%B %-d, %Y" }}</small></h5>
-                    {{ post.content }}
-                </div>
-            {% if post.previous %}{% if post.previous.categories contains "social" %}{% else %}
-                </div>
-            {% endif %}{% endif %}
-
-        {% else %}
-
-        <h5>
-            <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-        </h5>
-
-        {% if post.source-name %}
-        <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
-            <a href="{{ post.url }}" style="display: block;">
-                <p>
-                    {% if post.source-name %}
-                    {{ post.noun | capitalize | default: "Post"}} {{ post.verb | default: "written for" }} <em>{{ post.source-name }}</em>:
-                    {% endif %}
-                </p>
-            </a>
-
-        </div>
-        {% endif %}
-
-        <div class="paper">
-            {% if post.source-name %}
-            <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
-            {% else %}
-            <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Recent updates</h2>
             <hr>
-            {% endif %}
 
-            <article>
-                {% if post.source-name %}
-                {{ post.content | truncatewords: 25 }}
-                {% else %}
-                {% if post.image-url %}
-                    <div class="pull-right col-sm-4 post-caption">
-                        <img src="{{ post.image-url }}" class="img-responsive" />
-                    </div>
-                {% endif %}
-                {{ post.content | truncatewords: 200 }}
-                {% endif %}
+            {% for post in site.posts limit: 5 %}
+                {% if post.categories contains "social" %}
 
-                <p>
-                    {% if post.source-name %}
-                    <small><a href="{{ post.url }}">
-                        {{ post.action | default: "read" | capitalize}} {{ post.noun | default: "post"}}&hellip;
-                    </a></small>
+                    {% if post.next %}
+                        {% if post.next.categories contains "social" %}{% else %}
+                            <div class="row">
+                        {% endif %}
                     {% else %}
-                    <a class="btn btn-sm btn-default btn-block" href="{{ post.url }}">Continue reading&hellip;</a>
+                        <div class="row">
                     {% endif %}
-                </p>
-            </article>
-        </div>
-        {% endif %}
-    {% endfor %}
+                        <div class="col-sm-6" style="padding: 15px;">
+                            <h5><small>{{ post.date | date: "%B %-d, %Y" }}</small></h5>
+                            {{ post.content }}
+                        </div>
+                    {% if post.previous %}{% if post.previous.categories contains "social" %}{% else %}
+                        </div>
+                    {% endif %}{% endif %}
 
-    <div class="col-sm-12">
-        <div class="col-sm-6">
-            <p><a class="btn btn-default btn-block" href="/writing">More writing&hellip;</a></p>
+                {% else %}
+
+                <h5>
+                    <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+                </h5>
+
+                {% if post.source-name %}
+                <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
+                    <a href="{{ post.url }}" style="display: block;">
+                        <p>
+                            {% if post.source-name %}
+                            {{ post.noun | capitalize | default: "Post"}} {{ post.verb | default: "written for" }} <em>{{ post.source-name }}</em>:
+                            {% endif %}
+                        </p>
+                    </a>
+
+                </div>
+                {% endif %}
+
+                <div class="paper">
+                    {% if post.source-name %}
+                    <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                    {% else %}
+                    <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                    <hr>
+                    {% endif %}
+
+                    <article>
+                        {% if post.source-name %}
+                        {{ post.content | truncatewords: 25 }}
+                        {% else %}
+                        {% if post.image-url %}
+                            <div class="pull-right col-sm-4 post-caption">
+                                <img src="{{ post.image-url }}" class="img-responsive" />
+                            </div>
+                        {% endif %}
+                        {{ post.content | truncatewords: 200 }}
+                        {% endif %}
+
+                        <p>
+                            {% if post.source-name %}
+                            <small><a href="{{ post.url }}">
+                                {{ post.action | default: "read" | capitalize}} {{ post.noun | default: "post"}}&hellip;
+                            </a></small>
+                            {% else %}
+                            <a class="btn btn-sm btn-default btn-block" href="{{ post.url }}">Continue reading&hellip;</a>
+                            {% endif %}
+                        </p>
+                    </article>
+                </div>
+                {% endif %}
+            {% endfor %}
+
+            <div class="col-sm-12">
+                <div class="col-sm-6">
+                    <p><a class="btn btn-default btn-block" href="/writing">More writing&hellip;</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <p><a class="btn btn-default btn-block" href="/blog">More blog posts&hellip;</a></p>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-6">
-            <p><a class="btn btn-default btn-block" href="/blog">More blog posts&hellip;</a></p>
+        <div class="col-md-4">
+            <h2>Top blog posts</h2>
+            <hr>
+            <ol>
+                {% for post in site.categories["blog"] limit: 3 %}
+                <li>
+                    <h5>
+                        <a href="{{ post.url }}">{{ post.title }}</a> &nbsp;
+                        <small>{{ post.date | date: "%B %-d, %Y"  }}</small>
+                    </h5>
+                </li>
+                {% endfor %}
+            </ol>
+
+
+
+            <h2>Get in touch</h2>
+            <hr>
+            <div class="btn-group btn-group-justified">
+                {% include social.html %}
+            </div>
+            <br>
+
+            <div class="paper">
+                <!-- <span class="pull-right">
+                    <a class="twitter-follow-button" data-size="large" data-show-count="false" data-show-screen-name="false" href="https://twitter.com/zwsorenson">Follow @zwsorenson</a>
+                </span> -->
+                <a class="twitter-timeline"  data-link-color="#00356b" data-cards="visible" data-conversation="visible" href="https://twitter.com/zwsorenson">Tweets by @zwsorenson</a>
+            </div>
         </div>
     </div>
-
 
 </div>
