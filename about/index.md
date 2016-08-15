@@ -3,8 +3,6 @@ layout: page
 title: About
 ---
 
-<p class="lead">Hey, I&rsquo;m Zach...</p>
-
 <img class="img-responsive col-sm-5 pull-right" src="/images/kayak.jpg" alt="Kayaking on the Potomac"/>
 
 I'm a graduate student at <a href="https://www.stanford.edu">Stanford</a> studying computer science and public policy. I'm especially interested in cybersecurity and technology policy, and I'm planning on eventually attending law school. I'm currently working as a research assistant for Condoleezza Rice, helping with her <a href="http://www.nytimes.com/2013/03/20/business/media/condoleezza-rice-to-write-book-for-henry-holt.html">upcoming book on contemporary democracy</a>.
