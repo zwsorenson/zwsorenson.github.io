@@ -45,7 +45,7 @@ title: Resume
 {% for sch_hash in site.data.education %}
 {% assign school = sch_hash[1] %}
 
-<div class="panel panel-resume panel-default" style="{% if school.bg-color %}border-color: #{{school.bg-color}};{% endif %}">
+<div class="panel panel-resume panel-default">
 
     <div class="panel-heading" style="{% if school.bg-color %}background-color: #{{school.bg-color}}; border-color: #{{school.bg-color}};{% endif %}{% if school.bg-image %}background-image: url({{school.bg-image.url}}); {{school.bg-image.style}}{% endif %}">
         <h3 class="panel-title" style="{% if school.text-color %} color: #{{school.text-color}};{% endif %}">
@@ -94,7 +94,7 @@ title: Resume
 
     {% for job_hash in category %}
     {% assign job = job_hash[1] %}
-    <div class="panel panel-resume panel-default" style="{% if job.bg-color %}border-color: #{{job.bg-color}};{% endif %}">
+    <div class="panel panel-resume panel-default">
 
         <div class="panel-heading" style="{% if job.bg-color %}background-color: #{{job.bg-color}}; border-color: #{{job.bg-color}};{% endif %}{% if job.bg-image %}background-image: url({{job.bg-image.url}}); {{job.bg-image.style}}{% endif %}">
             <h3 class="panel-title" style="{% if job.text-color %} color: #{{job.text-color}};{% endif %}">

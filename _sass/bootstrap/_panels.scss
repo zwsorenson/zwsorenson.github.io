@@ -294,12 +294,8 @@
 .panel-resume,
 .panel-primary .panel-resume,
 .panel-default .panel-resume {
-    border: 0px;
-    @include box-shadow(-3px 3px 0px rgba(0,0,0,.05));
-
-    .panel-body {
-    }
-
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    background-color: #fff;
+    border: 1px solid $well-border;
+    border-radius: $border-radius-small;
+    @include box-shadow(1px 1px 8px $gray-light);
 }
