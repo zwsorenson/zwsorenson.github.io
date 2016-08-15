@@ -9,7 +9,7 @@ title: About
 
 I'm a graduate student at <a href="https://www.stanford.edu">Stanford</a> studying computer science and public policy. I'm especially interested in cybersecurity and technology policy, and I'm planning on eventually attending law school. I'm currently working as a research assistant for Condoleezza Rice, helping with her <a href="http://www.nytimes.com/2013/03/20/business/media/condoleezza-rice-to-write-book-for-henry-holt.html">upcoming book on contemporary democracy</a>.
 
-<div class="btn-group-vertical pull-left" style="margin-right: 15px">
+<div class="btn-group-vertical pull-left" style="margin-right: 15px; margin-top: 12px;">
 {% include social.html %}
 </div>
 
