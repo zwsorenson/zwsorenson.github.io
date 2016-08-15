@@ -26,15 +26,6 @@
     font-weight: 200;
   }
 
-  a {
-      color: lighten($brand-secondary, 25%);
-      &:hover, &:active {
-          color: $jumbotron-heading-color;
-      }
-  }
-  small a {
-      padding: 4px 6px;
-  }
 
   > hr {
     border-top-color: darken($jumbotron-bg, 10%);
