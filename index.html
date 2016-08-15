@@ -56,16 +56,16 @@ layout: home
                     <hr class="hidden-xs">
                     {% endif %}
 
-                    <article class="hidden-xs">
+                    <article>
                         {% if post.source-name %}
-                        {{ post.content | truncatewords: 25 }}
+                            <span class="hidden-xs">{{ post.content | truncatewords: 25 }}</span>
                         {% else %}
                         {% if post.image-url %}
-                            <div class="pull-right col-sm-4 post-caption">
+                            <div class="pull-right col-sm-4 post-caption hidden-xs">
                                 <img src="{{ post.image-url }}" class="img-responsive" />
                             </div>
                         {% endif %}
-                        {{ post.content | truncatewords: 200 }}
+                        {{ post.content | truncatewords: 120 }}
                         {% endif %}
 
                         <p>
