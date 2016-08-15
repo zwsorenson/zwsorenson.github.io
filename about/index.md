@@ -9,11 +9,12 @@ title: About
 
 I'm a graduate student at <a href="https://www.stanford.edu">Stanford</a> studying computer science and public policy. I'm especially interested in cybersecurity and technology policy, and I'm planning on eventually attending law school. I'm currently working as a research assistant for Condoleezza Rice, helping with her <a href="http://www.nytimes.com/2013/03/20/business/media/condoleezza-rice-to-write-book-for-henry-holt.html">upcoming book on contemporary democracy</a>.
 
-At Stanford, I've spent quarters at <a href="https://siw.stanford.edu">Stanford in Washington</a> and Oxford. I've been involved with <a href="https://sig.stanford.edu">Stanford in Government</a> and the <a href="http://www.stanfordpolitics.com">Stanford Political Journal</a>, and I'm a peer adviser for the <a href="https://publicpolicy.stanford.edu">Public Policy program</a>. This summer, I'll be leading a pre-orientation backpacking trip for incoming freshmen through Stanford Outdoor Education. I am also a tour guide --- drop by the <a href="https://visit.stanford.edu">Visitor Center</a> and get a tour of campus if you're in the area!
-
-<div class="pull-left" style="margin-right: 15px">
+<div class="btn-group-vertical pull-left" style="margin-right: 15px">
 {% include social.html %}
 </div>
+
+At Stanford, I've spent quarters at <a href="https://siw.stanford.edu">Stanford in Washington</a> and Oxford. I've been involved with <a href="https://sig.stanford.edu">Stanford in Government</a> and the <a href="http://www.stanfordpolitics.com">Stanford Political Journal</a>, and I'm a peer adviser for the <a href="https://publicpolicy.stanford.edu">Public Policy program</a>. This summer, I'll be leading a pre-orientation backpacking trip for incoming freshmen through Stanford Outdoor Education. I am also a tour guide --- drop by the <a href="https://visit.stanford.edu">Visitor Center</a> and get a tour of campus if you're in the area!
+
 
 Last summer, I worked as a policy intern at the <a href="https://www.sunlightfoundation.com">Sunlight Foundation</a> in Washington DC, where I wrote blog posts and a daily email newsletter, and researched open government and transparency. I've also worked for the <a href="http://www.whitehouse.gov">White House</a>, <a href="http://www.qualtrics.com">Qualtrics</a>, and a couple of <a href="http://www.glazerforsenate.com">California political campaigns</a>.
 
