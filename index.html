@@ -53,10 +53,10 @@ layout: home
                     <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
                     {% else %}
                     <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
-                    <hr>
+                    <hr class="hidden-xs">
                     {% endif %}
 
-                    <article>
+                    <article class="hidden-xs">
                         {% if post.source-name %}
                         {{ post.content | truncatewords: 25 }}
                         {% else %}
