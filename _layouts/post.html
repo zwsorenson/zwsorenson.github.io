@@ -1,54 +1,54 @@
 ---
 layout: default
 ---
-<div class="page-header">
-    {% if page.source-thumb %}
-    <div class="pull-right">
-        <a href="{{ page.source-url }}">
-            <img class="media-object" src="{{ page.source-thumb }}" alt="{{ page.source-name }}" style="max-width: 64px;"/>
-        </a>
-    </div>
-    {% endif %}
-    <div>
-        <h1>{{ page.title }}</h1>
-        <h4>
-            <small>
-                {{ page.date | date: "%b %-d, %Y" }}
-                {% if page.source-name %} ·
-                    {% if page.source-url %}<a href="{{ page.source-url }}">{% endif %}
-                    {{ page.source-name }}
-                    {% if page.source-url %}</a>{% endif %}
-
-                {% endif %}
-            </small>
-        </h4>
-    </div>
-</div>
-
-{% if page.image-url %}
-    <div class="pull-right col-sm-6 post-caption">
-        <img src="{{ page.image-url }}" class="img-responsive" />
-        {% if page.image-caption %}
-            <small>{{ page.image-caption }}</small>
+<div class="paper" style="margin-top: 36px;">
+    <div class="page-header" style="margin-top: 0px;">
+        {% if page.source-thumb %}
+        <div class="pull-right">
+            <a href="{{ page.source-url }}">
+                <img class="media-object" src="{{ page.source-thumb }}" alt="{{ page.source-name }}" style="max-width: 64px;"/>
+            </a>
+        </div>
         {% endif %}
-    </div>
-{% endif %}
+        <div>
+            <h1>{{ page.title }}</h1>
+            <h4>
+                <small>
+                    {{ page.date | date: "%b %-d, %Y" }}
+                    {% if page.source-name %} ·
+                        {% if page.source-url %}<a href="{{ page.source-url }}">{% endif %}
+                        {{ page.source-name }}
+                        {% if page.source-url %}</a>{% endif %}
 
-<article>
-    {% if page.intro %}
-        <div class="well">
-            <small>{{ page.intro}}</small>
+                    {% endif %}
+                </small>
+            </h4>
+        </div>
+    </div>
+
+    {% if page.image-url %}
+        <div class="pull-right col-sm-6 post-caption">
+            <img src="{{ page.image-url }}" class="img-responsive" />
+            {% if page.image-caption %}
+                <small>{{ page.image-caption }}</small>
+            {% endif %}
         </div>
     {% endif %}
-    {{ content }}
-</article>
+
+    <article>
+        {% if page.intro %}
+            <div class="well">
+                <small>{{ page.intro}}</small>
+            </div>
+        {% endif %}
+        {{ content }}
+    </article>
+</div>
 
 {% if page.categories contains "blog" %}
-    <hr />
     {% include share.html %}
     {% include comments.html %}
 {% endif %}
 {% if page.categories contains "writing" %}
-    <hr />
     {% include share.html %}
 {% endif %}
