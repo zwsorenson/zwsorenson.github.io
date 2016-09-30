@@ -5,7 +5,7 @@
 <div>
     <div
         class="fb-like"
-        data-href="{% if page.source-url %}{{ page.source-url }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}"
+        data-href="{% if page.source-url %}{{ page.source-url }}{% else %}{{ page.url | replace:'index.html','' | prepend: 'site.baseurl | prepend: site.url' }}{% endif %}"
         data-share="true"
         data-action="recommend"
         data-show-faces="true"

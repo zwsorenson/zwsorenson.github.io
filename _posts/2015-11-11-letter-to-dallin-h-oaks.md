@@ -4,6 +4,7 @@ title: A letter to Mormon Apostle Dallin H. Oaks
 categories: blog
 image-url: '/images/blog/oaks.jpg'
 image-caption: 'Dallin H. Oaks is an apostle in the Church of Jesus Christ of Latter-day Saints.'
+source-url: 'http://zws.me/blog/2015/11/11/letter-to-dallin-h-oaks.html'
 ---
 
 Dear Elder Oaks,

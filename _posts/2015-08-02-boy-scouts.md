@@ -4,6 +4,7 @@ title: Mormons should embrace gay Boy Scout leaders
 categories: blog
 image-url: '/images/blog/scouts.jpg'
 image-caption: 'My Eagle Scout Court of Honor in 2011. They say scouting turns boys into men — the timing was clearly off for me.'
+source-url: 'http://zws.me/blog/2015/08/02/boy-scouts.html'
 ---
 
 When I became an Eagle Scout four years ago, nobody knew I was gay --- I was still in the process of accepting it myself. If I had told anyone, I would not have been given the award, despite a decade of involvement with scouting, countless hours with dozens of volunteers installing a garden at my elementary school and more than a hundred nights camping in the California wilderness.
