@@ -12,6 +12,10 @@ layout: home
             <hr>
 
             {% for post in site.posts limit: 12 %}
+                {% if post.categories contains "blog" %}
+                    {% continue %}
+                {% endif %}
+                
                 {% if post.categories contains "social" %}
 
                     {% if post.next %}
