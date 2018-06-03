@@ -5,7 +5,7 @@ title: About
 
 <img class="img-responsive col-sm-5 pull-right" src="/images/kayak.jpg" alt="Kayaking on the Potomac"/>
 
-I'm a recent graduate of Stanford, where I studied computer science and public policy. I'm particularly interested in cybersecurity and technology policy.
+I'm currently working on the Hill, and particularly interested in technology policy and national security. I graduated last year from Stanford, where I studied computer science and public policy.
 
 <div class="btn-group-vertical pull-left" style="margin-right: 15px; margin-top: 12px;">
 {% include social.html %}
@@ -17,4 +17,4 @@ Between academic years, I worked as a policy intern at the <a href="https://www.
 
 Outside of school, I worked as the training director for the Peninsula Chapter of <a href="http://www.amigosinternational.org">Amigos de las Américas</a>, a youth leadership nonprofit that sends teenagers to live in communities throughout Latin America for a summer. I was an Amigos volunteer in high school --- I spent eight weeks living in working in Las Cabras, Panama.
 
-I was born in Salt Lake City and lived in lots of interesting places as a kid — San Francisco, Durham, NC, and even Samoa — but since kindergarten I grew up on the same sleepy street in Orinda, California.
+I was born in Salt Lake City and lived in lots of interesting places as a kid — San Francisco, Durham, NC, and even Samoa — but since kindergarten I grew up on the same sleepy street in the East Bay.
