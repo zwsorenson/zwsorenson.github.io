@@ -13,6 +13,7 @@ layout: home
                     <small>{{ post.date | date: "%B %-d, %Y" }}</small>
                 </h5>
 
+                <!-- External writing, projects, etc. -->
                 {% if post.source-name %}
                     <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
                         <a href="{{ post.url }}" style="display: block;">
@@ -50,18 +51,18 @@ layout: home
                 </div>
 
                 {% else %}
-
+                <!-- Direct blog posts -->
                 <div class="paper">
                     <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
                     <hr>
 
                     <article>
                         {% if post.image-url %}
-                            <div class="pull-right col-sm-6 post-caption">
+                            <div class="pull-right col-sm-5 post-caption">
                                 <img src="{{ post.image-url }}" class="img-responsive" />
                             </div>
                         {% endif %}
-                        {{ post.content | truncatewords: 150 }}
+                        {{ post.content | truncatewords: 86 }}
 
                         <p>
                             <a class="btn btn-sm btn-default btn-block" href="{{ post.url }}">Continue reading&hellip;</a>
@@ -78,7 +79,7 @@ layout: home
 
         </div>
         <div class="col-lg-4 col-md-5">
-            <div class="btn-group btn-group-justified" style="margin-top: 78px;">
+            <div class="btn-group btn-group-justified" style="margin-top: 60px;">
                 {% include social.html %}
             </div>
             <br>
