@@ -18,12 +18,20 @@ The problem is that passive consumption on Facebook happens in the News Feed. Th
 
 The solution? Block it. This means two things:
 
-1. Delete the app on your phone.
-2. Use a browser extension to block the News Feed's `<div>`. I use [uBlock](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) on Firefox.
+### 1. Delete the app
+This one is easy.
+
+### 2. Block the News Feed's `<div>` on your browser
+
+I use the [uBlock](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) on Firefox, but there are presumably other options that could work. Here's what I did:
+
+1. Install [uBlock](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/).
 
 
 ## Step 3: Notifications
+The problem with not having the app on your phone is that sometimes it's helpful to have the app on your phone so that you're notified when things happen.
 
+My workaround was to turn email notifications back on. Facebook makes it easy to tailor exactly what types of notifications you receive an email for—event invitations are helpful, for example, as are friend requests. I filter all of these emails into a folder in my mail app, but how you handle them is up to you.
 
 ## Step 4: Privacy
 
