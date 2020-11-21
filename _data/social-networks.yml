@@ -1,8 +1,8 @@
-- name: Facebook
-  user: zwsorenson
-  url:  https://www.facebook.com/zwsorenson
-  fa:   fa-facebook
-  bg:   "#3b5998"
+- url:  mailto:hi@zachsorenson.com
+  fa:   fa-envelope
+  bg:   "#dd4b39"
+  name: Email
+  user: hi@zachsorenson.com
 
 - url:  https://www.instagram.com/zwsorenson
   fa:   fa-instagram
@@ -16,26 +16,9 @@
   user: zwsorenson
   bg:   "#1da1f2"
 
-- url:  https://www.medium.com/@zwsorenson
-  fa:   fa-medium
-  bg:   "#00ab6b"
-  name: Medium
-  user: zwsorenson
 
 - url:  https://www.linkedin.com/in/zwsorenson
   fa:   fa-linkedin
   bg:   "#0077b5"
   name: LinkedIn
   user: zwsorenson
-
-- url: https://www.github.com/zwsorenson
-  fa:   fa-github
-  bg:   "#333333"
-  name: GitHub
-  user: zwsorenson
-
-- url:  mailto:hi@zachsorenson.com
-  fa:   fa-envelope
-  bg:   "#dd4b39"
-  name: Email
-  user: hi@zachsorenson.com

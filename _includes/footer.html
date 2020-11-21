@@ -1,15 +1,5 @@
-<footer class="container site-footer">
-    <!-- <form class="form-inline footer-form" action="//zws.us11.list-manage.com/subscribe/post?u=35d33a4deb77556304f5bfc8e&amp;id=f14cd9a0c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-        <div style="position: absolute; left: -5000px;"><input type="text" name="b_35d33a4deb77556304f5bfc8e_f14cd9a0c3" tabindex="-1" value=""></div>
-        <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control input-sm" placeholder="Email Address">
-        <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-sm">Subscribe to posts</button>
-        <a class="btn btn-default btn-sm pull-right" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-
-    </form> -->
-    <span style="line-height: 2.35">Copyright © 2018 <a href="mailto:{{ site.email }}">Zachary W. Sorenson</a></span>
-    <!-- <span class="pull-right">
-        <div class="fb-follow" data-href="https://www.facebook.com/zwsorenson" data-width="96px" data-height="12px" data-layout="button_count" data-show-faces="true"></div>
-    </span> -->
+<footer class="page-footer container">
+    <small class="text-muted">Copyright © 2020 Zachary Sorenson</small>
     <span class="pull-right">
         {% for network in site.data.social-networks %}
             <a href="{{ network.url }}" title="{{ network.name }}: {{ network.user }}">
@@ -32,9 +22,9 @@
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-<div id="fb-root"></div>
-<script id="dsq-count-scr" src="//zwsorenson.disqus.com/count.js" async></script>
-<script>
+<!-- <div id="fb-root"></div> -->
+<!-- <script id="dsq-count-scr" src="//zwsorenson.disqus.com/count.js" async></script> -->
+<!-- <script>
     window.twttr = (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0],
         t = window.twttr || {};
@@ -51,4 +41,4 @@
 
         return t;
     }(document, "script", "twitter-wjs"));
-</script>
+</script> -->

@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6,
   .small {
     line-height: 1;
     color: $headings-small-color;
+    text-transform: uppercase;
   }
   a {
     color: $link-color;
@@ -47,7 +48,7 @@ h3, .h3 {
 
   small,
   .small {
-    font-size: 65%;
+    font-size: 75%;
   }
 }
 h4, .h4,
@@ -87,7 +88,8 @@ h6, .h6 {
 
 p {
   margin: 0 0 ($line-height-computed / 2);
-
+  text-align: justify;
+  hyphens: auto;
 }
 
 .lead {
@@ -175,6 +177,14 @@ mark,
   padding-bottom: (($line-height-computed / 2) - 1);
   margin: ($line-height-computed * 2) 0 $line-height-computed;
   border-bottom: 1px solid $page-header-border-color;
+}
+
+// Page footer
+
+.page-footer {
+  padding-top: (($line-height-computed / 2) - 1);
+  margin: ($line-height-computed * 4) 0 $line-height-computed;
+  border-top: 1px solid $page-header-border-color;
 }
 
 

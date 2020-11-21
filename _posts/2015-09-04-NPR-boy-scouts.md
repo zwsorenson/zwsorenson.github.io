@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 'Bucket list check-off: Public radio interview'
+title: 'Gay Eagle Scout Speaks Out on Mormons and Boy Scouts'
 categories: blog
 noun: radio interview
 color: '000000'
 verb: conducted with
 action: listen to
 source-thumb: /images/logos/knpr.png
-source-name: Nevada Public Radio
+source-name: KNPR
 source-url: 'http://knpr.org/knpr/2015-09/gay-eagle-scout-speaks-out-mormons-and-boy-scouts'
 ---
 

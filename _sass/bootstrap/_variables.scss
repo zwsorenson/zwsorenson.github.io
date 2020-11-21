@@ -8,14 +8,15 @@ $bootstrap-sass-asset-helper: false !default;
 //
 //## Gray and brand colors for use across Bootstrap.
 
-$gray-darker:            #222222 !default;
+$gray-darker:            #1E1E1E !default;
 $gray-dark:              #4a4a4a !default;
-$gray:                   #978d85 !default;
+$gray:                   #8996A0 !default;
 $gray-light:             #dddddd !default;
 $gray-lighter:           #f9f9f9 !default;
 
-$brand-primary:         #00356b !default; // "Yale Blue"
-$brand-secondary:       #286dc0 !default;
+$brand-primary:         #293352 !default;
+$brand-secondary:       #4E84C4 !default;
+$brand-accent:          #D16103 !default;
 $brand-success:         #5f712d !default;
 $brand-info:            #63aaff !default;
 $brand-warning:         #bd5319 !default;
@@ -43,25 +44,25 @@ $link-hover-decoration: none !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Lato", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       "Crimson Text", Georgia, "Times New Roman", Times, serif !default;
+$font-family-sans-serif:  Arial, Helvetica, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-serif !default;
 
-$font-size-base:          20px !default;
+$font-size-base:          16px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-small:         ceil(($font-size-base * 0.75)) !default; // ~12px
 
-$font-size-h1:            floor(($font-size-base * 1.4)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 1.25)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.25)) !default; // ~24px
+$font-size-h1:            floor(($font-size-base * 1.35)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 1.1)) !default; // ~30px
+$font-size-h3:            $font-size-base !default; // ~24px
 $font-size-h4:            $font-size-base !default;
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.8)) !default;
+$font-size-h5:            ceil(($font-size-base * 0.9)) !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.8 !default; // 20/14
+$line-height-base:        1.6 !default; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
@@ -492,7 +493,7 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 $jumbotron-padding:              18px !default;
 $jumbotron-color:                #fff !default;
 $jumbotron-bg:                   $brand-primary !default;
-$jumbotron-bg-image:             url('/images/header.png');
+// $jumbotron-bg-image:             url('/images/header.png');
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            $font-size-base !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 2.5)) !default;
@@ -862,9 +863,9 @@ $headings-small-color:        $gray !default;
 //** Blockquote small color
 $blockquote-small-color:      $gray !default;
 //** Blockquote font size
-$blockquote-font-size:        ($font-size-base * .9) !default;
+$blockquote-font-size:        ($font-size-base * 1) !default;
 //** Blockquote border color
-$blockquote-border-color:     $brand-primary !default;
+$blockquote-border-color:     $brand-secondary !default;
 //** Page header border color
 $page-header-border-color:    $gray-light !default;
 //** Width of horizontal description list titles

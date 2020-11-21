@@ -2,7 +2,7 @@ _site
 .DS_Store
 .gitignore
 .sass-cache
-
+.jekyll-cache
 copy.html
 
 copy.md

@@ -1,9 +1,7 @@
 ---
 layout: post
-title: A letter to Mormon Apostle Dallin H. Oaks
+title: Letter to Mormon Apostle Dallin H. Oaks
 categories: blog
-image-url: '/images/blog/oaks.jpg'
-image-caption: 'Dallin H. Oaks is an apostle in the Church of Jesus Christ of Latter-day Saints.'
 source-url: 'http://zws.me/blog/2015/11/11/letter-to-dallin-h-oaks.html'
 ---
 
@@ -55,7 +53,7 @@ More importantly, though, please fix this.
 
 Sincerely,
 
-<img src="/images/blog/signature.png" width="120" style="margin: 12px 0 12px 36px;"/>
+<!-- <img src="/images/blog/signature.png" width="120" style="margin: 12px 0 12px 36px;"/> -->
 
 Zachary Sorenson
 
@@ -64,7 +62,7 @@ Zachary Sorenson
 <br /> <br />
 
 
-<table class="table">
+<!-- <table class="table">
     <tr>
         <td>Full Name:</td>
         <td>Zachary William Sorenson</td>
@@ -81,4 +79,4 @@ Zachary Sorenson
         <td>Member Record Number:</td>
         <td><span class="redacted"></span></td>
     </tr>
-</table>
+</table> -->

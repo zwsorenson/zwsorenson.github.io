@@ -4,97 +4,35 @@ layout: home
 
 {% include jumbotron.html %}
 
-
 <div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-md-7">
-            {% for post in site.posts %}
-                <h5>
-                    <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-                </h5>
-
-                <!-- External writing, projects, etc. -->
-                {% if post.source-name %}
-                    <div class="pre-paper" {% if post.color %} style="background-color: #{{post.color}};" {% endif %}>
-                        <a href="{{ post.url }}" style="display: block;">
-                            <p>
-                                {% if post.source-name %}
-                                {{ post.noun | capitalize | default: "Post"}} {{ post.verb | default: "written for" }} <em>{{ post.source-name }}</em>:
-                                {% endif %}
-                            </p>
-                        </a>
-
-                    </div>
-
-                <div class="paper">
-                    {% if post.source-thumb %}
-                    <div class="media-left">
-                        <img class="media-object" src="{{ post.source-thumb }}" alt="{{ post.source-name }}" style="max-height: 64px; margin-top: 18px;"/>
-                    </div>
-                    {% endif %}
-                    <div class="media-right">
-                        <h5>
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                        </h5>
-
-                        <article>
-                            {{ post.content | truncatewords: 60 }}
-
-                            <p>
-                                <small><a href="{{ post.url }}">
-                                    {{ post.action | default: "read" | capitalize}} {{ post.noun | default: "post"}}&hellip;
-                                </a></small>
-
-                            </p>
-                        </article>
-                    </div>
-                </div>
-
-                {% else %}
-                <!-- Direct blog posts -->
-                <div class="paper">
-                    <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
-                    <hr>
-
-                    <article>
-                        {% if post.image-url %}
-                            <div class="pull-right col-sm-5 post-caption">
-                                <img src="{{ post.image-url }}" class="img-responsive" />
-                            </div>
-                        {% endif %}
-                        {{ post.content | truncatewords: 86 }}
-
-                        <p>
-                            <a class="btn btn-sm btn-default btn-block" href="{{ post.url }}">Continue reading&hellip;</a>
-                        </p>
-                        <p>
-                            <small><a href="{{ post.url | prepend: site.url }}#disqus_thread">Comments</a></small>
-                        </p>
-
-                    </article>
-                </div>
-
-                  {% endif %}
-            {% endfor %}
-
-        </div>
-        <div class="col-lg-4 col-md-5">
-            <div class="btn-group btn-group-justified" style="margin-top: 60px;">
-                {% include social.html %}
-            </div>
-            <br>
-
-            <div class="paper">
-                <a class="twitter-timeline"
-                    data-link-color="#00356b"
-                    data-cards="visible"
-                    data-conversation="visible"
-                    data-show-replies="true"
-                    href="https://twitter.com/zwsorenson">
-                    Tweets by @zwsorenson
-                </a>
-            </div>
-        </div>
+    <div class="page-header">
+          <h1>Writing</h1>
     </div>
+    <ul>
+      {% for post in site.posts %}
+
+          <!-- External writing, projects, etc. -->
+
+          {% if post.source-name %}
+          <li>
+              <a href="{{ post.source-url }}">{{ post.title }}</a>
+              <small class="text-uppercase text-muted">
+                {% if post.source-name %} &centerdot; {{ post.source-name }} {% endif %}
+                &CenterDot;  {{ post.date | date: "%b %Y" }}
+              </small>
+          </li>
+
+          {% else %}
+
+          <!-- Direct blog posts -->
+
+          <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <small class="text-uppercase text-muted"> &CenterDot; {{ post.date | date: "%b %Y" }}</small>
+          </li>
+
+          {% endif %}
+      {% endfor %}
+    </ul>
 
 </div>
