@@ -2,7 +2,7 @@
 title: ZWS
 email: hi@zachsorenson.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hill staffer turned law student.
+  Harvard Law student.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zachsorenson.com" # the base hostname & protocol for your site
 twitter_username: zwsorenson

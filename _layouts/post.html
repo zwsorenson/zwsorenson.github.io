@@ -11,10 +11,10 @@ layout: default
         </div>
         {% endif %}
         <div>
-            <h1>{{ page.title }}</h1>
+            <h2>{{ page.title }}</h2>
             <h4>
                 <small>
-                    {{ page.date | date: "%b %-d, %Y" }}
+                    {{ page.date | date: "%B %-d, %Y" }}
                     {% if page.source-name %} ·
                         {% if page.source-url %}<a href="{{ page.source-url }}">{% endif %}
                         {{ page.source-name }}

@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-    {% include head.html %}
+{% include head.html %}
 
-    <body {% if page.url contains "resume" %}data-spy="scroll" data-target="#resume-nav" {% endif %}>
+<!-- <body {% if page.url contains "resume" %}data-spy="scroll" data-target="#resume-nav" {% endif %}> -->
+<body>
+  <nav class="navbar navbar-static-top">
+    {% include navbar_contents.html %}
+  </nav>
 
-        <nav class="navbar navbar-inverse navbar-static-top">
-            {% include navbar_contents.html %}
-        </nav>
+  <div class="container" style="padding-top: 60px;">
+    {{ content }}
+  </div>
 
-        <div class="container" style="padding-top: 60px;">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
+  {% include footer.html %}
 
-        {% include footer.html %}
-
-    </body>
+</body>
 
 </html>

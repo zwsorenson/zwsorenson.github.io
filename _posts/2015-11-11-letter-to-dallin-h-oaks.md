@@ -57,9 +57,9 @@ Sincerely,
 
 Zachary Sorenson
 
-<hr />
+<!-- <hr /> -->
 
-<br /> <br />
+<!-- <br /> <br /> -->
 
 
 <!-- <table class="table">
