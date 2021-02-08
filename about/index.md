@@ -3,13 +3,13 @@ layout: page
 title: About
 ---
 
-<img class="img-responsive col-sm-5 pull-right" src="/images/kayak.jpg" alt="Kayaking on the Potomac"/>
+<!-- <img class="img-responsive col-sm-5 pull-right" src="/images/kayak.jpg" alt="Kayaking on the Potomac"/> -->
 
 I'm currently working on the Hill, and particularly interested in technology policy and national security. I graduated last year from Stanford, where I studied computer science and public policy.
 
-<div class="btn-group-vertical pull-left" style="margin-right: 15px; margin-top: 12px;">
+<!-- <div class="btn-group-vertical pull-left" style="margin-right: 15px; margin-top: 12px;">
 {% include social.html %}
-</div>
+</div> -->
 
 At Stanford, I worked as a research assistant to Condoleezza Rice, working on her bestselling new book <a href="https://www.nytimes.com/2017/05/03/books/review/democracy-stories-long-road-to-freedom-condoleezza-rice.html"><i>Democracy: Stories from the Long Road to Freedom</i></a>. I spent quarters at <a href="https://siw.stanford.edu">Stanford in Washington</a> and Oxford, where I studied at the Cyber Security Centre. Outside of class, I have served as a leader in <a href="https://sig.stanford.edu">Stanford in Government</a> and the <a href="http://www.stanfordpolitics.com">Stanford Political Journal</a>, and volunteered as a peer adviser for the <a href="https://publicpolicy.stanford.edu">Public Policy program</a>. I have also led pre-orientation backpacking trips for incoming freshmen through Stanford Outdoor Education, and been a tour guide for prospective students.
 
