@@ -3,7 +3,7 @@ layout: post
 title: 'What’s Next for California Drivers’ Challenge to Prop. 22?'
 categories: writing
 noun: article
-source-name: On Labor
+source-name: On Labor (Harvard Law School)
 source-url: 'https://onlabor.org/whats-next-for-california-drivers-challenge-to-prop-22/'
 image-url: 'https://onlabor.org/wp-content/uploads/2021/02/800px-Lyft_Pink_Mustache.jpg'
 ---
